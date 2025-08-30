@@ -6,15 +6,25 @@
 
 
 
+    <script>
+        try {
+            if (localStorage.get("__framer_force_showing_editorbar_since")) {
+                const n = document.createElement("link");
+                n.rel = "modulepreload";
+                n.href = "https://framer.com/edit/init.mjs";
+                document.head.appendChild(n)
+            }
+        } catch (e) {}
+    </script>
     <!-- Start of headStart -->
 
     <!-- End of headStart -->
     <meta name="viewport" content="width=device-width">
-    <meta name="generator" content="Framer eeceacb">
+    <meta name="generator" content="Framer 14b65b1">
     <title>Markspy dashboard</title>
     <meta name="description" content="Darkweb entries">
-    <meta name="framer-search-index" content="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/searchIndex-PBtiRpBEh6YJ.json">
-    <meta name="framer-search-index-fallback" content="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/searchIndex-Is5kVBcFgQGS.json">
+    <meta name="framer-search-index" content="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/searchIndex-vHec4iA8ZVjm.json">
+    <meta name="framer-search-index-fallback" content="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/searchIndex-oLNhN56rq6gL.json">
     <link href="https://framerusercontent.com/sites/icons/default-favicon-light.v1.png" rel="icon" media="(prefers-color-scheme: light)">
     <link href="https://framerusercontent.com/sites/icons/default-favicon-dark.v1.png" rel="icon" media="(prefers-color-scheme: dark)">
     <link rel="apple-touch-icon" href="https://framerusercontent.com/sites/icons/default-touch-icon.v3.png">
@@ -50,7 +60,7 @@
             }
         }
     </style>
-    <style data-framer-css-ssr-minified data-framer-components="framer-lib-cursors-host framer-ly5gO framer-lib-form-plain-text-input PropertyOverrides">
+    <style data-framer-css-ssr-minified data-framer-components="framer-lib-cursors-host framer-A4wnC framer-lib-form-plain-text-input PropertyOverrides">
         html,
         body,
         #main {
@@ -231,6 +241,14 @@
             font-display: swap;
             font-style: normal;
             font-weight: 600
+        }
+
+        @font-face {
+            font-family: Space Grotesk;
+            src: url(https://framerusercontent.com/third-party-assets/fontshare/wf/GFEQC7SZ2XMFHB2INR6RE24JKHO5JNTS/R2HDHPNP7PMXFG5AIIV7PF3KFELSLGKJ/COAKOVM7H37QQIPEFBZNVR5EL4GEPLQU.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 700
         }
 
         @font-face {
@@ -1289,12 +1307,12 @@
             }
         }
 
-        .framer-ly5gO.framer-lux5qc,
-        .framer-ly5gO .framer-lux5qc {
+        .framer-A4wnC.framer-lux5qc,
+        .framer-A4wnC .framer-lux5qc {
             display: block
         }
 
-        .framer-ly5gO.framer-72rtr7 {
+        .framer-A4wnC.framer-72rtr7 {
             align-content: center;
             align-items: center;
             background-color: #fff;
@@ -1310,7 +1328,7 @@
             width: 1200px
         }
 
-        .framer-ly5gO .framer-t04yvy {
+        .framer-A4wnC .framer-t04yvy {
             align-content: flex-start;
             align-items: flex-start;
             background-color: #fff;
@@ -1327,7 +1345,7 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-13n1710 {
+        .framer-A4wnC .framer-13n1710 {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -1344,7 +1362,7 @@
             z-index: 1
         }
 
-        .framer-ly5gO .framer-5lulpz {
+        .framer-A4wnC .framer-5lulpz {
             align-content: center;
             align-items: center;
             display: flex;
@@ -1360,22 +1378,22 @@
             width: 250px
         }
 
-        .framer-ly5gO .framer-76ni2w,
-        .framer-ly5gO .framer-zxnn2r,
-        .framer-ly5gO .framer-132zju2,
-        .framer-ly5gO .framer-1xfhaey,
-        .framer-ly5gO .framer-159aptn,
-        .framer-ly5gO .framer-vb16v6,
-        .framer-ly5gO .framer-1s24hcv,
-        .framer-ly5gO .framer-y86c20,
-        .framer-ly5gO .framer-r8e7ne,
-        .framer-ly5gO .framer-5quaq6,
-        .framer-ly5gO .framer-asg6pc,
-        .framer-ly5gO .framer-195qm8h,
-        .framer-ly5gO .framer-dn9n1z,
-        .framer-ly5gO .framer-cjbg7o,
-        .framer-ly5gO .framer-120shf2,
-        .framer-ly5gO .framer-143i4e5 {
+        .framer-A4wnC .framer-76ni2w,
+        .framer-A4wnC .framer-zxnn2r,
+        .framer-A4wnC .framer-132zju2,
+        .framer-A4wnC .framer-1xfhaey,
+        .framer-A4wnC .framer-159aptn,
+        .framer-A4wnC .framer-vb16v6,
+        .framer-A4wnC .framer-1s24hcv,
+        .framer-A4wnC .framer-y86c20,
+        .framer-A4wnC .framer-r8e7ne,
+        .framer-A4wnC .framer-5quaq6,
+        .framer-A4wnC .framer-asg6pc,
+        .framer-A4wnC .framer-195qm8h,
+        .framer-A4wnC .framer-dn9n1z,
+        .framer-A4wnC .framer-cjbg7o,
+        .framer-A4wnC .framer-120shf2,
+        .framer-A4wnC .framer-143i4e5 {
             align-content: center;
             align-items: center;
             display: flex;
@@ -1391,104 +1409,104 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-1flsmf2,
-        .framer-ly5gO .framer-1eilzfp,
-        .framer-ly5gO .framer-1jargq6,
-        .framer-ly5gO .framer-frxdy,
-        .framer-ly5gO .framer-knsj9n,
-        .framer-ly5gO .framer-1u5624q,
-        .framer-ly5gO .framer-2nm8fe {
+        .framer-A4wnC .framer-1flsmf2,
+        .framer-A4wnC .framer-1eilzfp,
+        .framer-A4wnC .framer-1jargq6,
+        .framer-A4wnC .framer-frxdy,
+        .framer-A4wnC .framer-knsj9n,
+        .framer-A4wnC .framer-1u5624q,
+        .framer-A4wnC .framer-2nm8fe {
             flex: none;
             height: 24px;
             position: relative;
             width: 24px
         }
 
-        .framer-ly5gO .framer-ur7119,
-        .framer-ly5gO .framer-3xcdo3,
-        .framer-ly5gO .framer-m0kkuv,
-        .framer-ly5gO .framer-2nx2ax,
-        .framer-ly5gO .framer-19ieffi,
-        .framer-ly5gO .framer-12pisea,
-        .framer-ly5gO .framer-1056clz,
-        .framer-ly5gO .framer-1dwwiie,
-        .framer-ly5gO .framer-i80qjk,
-        .framer-ly5gO .framer-1hts7lk,
-        .framer-ly5gO .framer-1kqkgge,
-        .framer-ly5gO .framer-13wc0ne,
-        .framer-ly5gO .framer-7id5x7,
-        .framer-ly5gO .framer-batc6e,
-        .framer-ly5gO .framer-1w16ccz,
-        .framer-ly5gO .framer-1ioqh86,
-        .framer-ly5gO .framer-7iejwi,
-        .framer-ly5gO .framer-pod3ep,
-        .framer-ly5gO .framer-1darbce,
-        .framer-ly5gO .framer-oouqmu,
-        .framer-ly5gO .framer-1s74dgo,
-        .framer-ly5gO .framer-1jw7hz8,
-        .framer-ly5gO .framer-mfxjwl,
-        .framer-ly5gO .framer-1ukd4r8,
-        .framer-ly5gO .framer-no7jo5,
-        .framer-ly5gO .framer-1s7dxx0,
-        .framer-ly5gO .framer-8yzffi,
-        .framer-ly5gO .framer-bnwo0l,
-        .framer-ly5gO .framer-1pljiin,
-        .framer-ly5gO .framer-1trncb9,
-        .framer-ly5gO .framer-zny4xv,
-        .framer-ly5gO .framer-15ujg0x,
-        .framer-ly5gO .framer-1lzm9vv,
-        .framer-ly5gO .framer-t3ktcf,
-        .framer-ly5gO .framer-1wmyhtz,
-        .framer-ly5gO .framer-nw6ti3,
-        .framer-ly5gO .framer-1m6oy24,
-        .framer-ly5gO .framer-1cm9z0x,
-        .framer-ly5gO .framer-lrpfmo,
-        .framer-ly5gO .framer-13fz0eh,
-        .framer-ly5gO .framer-14i7502,
-        .framer-ly5gO .framer-197zmtc,
-        .framer-ly5gO .framer-12tkb2q,
-        .framer-ly5gO .framer-1xlinjf,
-        .framer-ly5gO .framer-ieus3q,
-        .framer-ly5gO .framer-1usc92o,
-        .framer-ly5gO .framer-hrigjf,
-        .framer-ly5gO .framer-1hwupwo,
-        .framer-ly5gO .framer-fwvb1k,
-        .framer-ly5gO .framer-1v6g6th,
-        .framer-ly5gO .framer-1n4om8z,
-        .framer-ly5gO .framer-1ng4n3m,
-        .framer-ly5gO .framer-q85qy0,
-        .framer-ly5gO .framer-1mo4wu5,
-        .framer-ly5gO .framer-oxk27r,
-        .framer-ly5gO .framer-q39geu,
-        .framer-ly5gO .framer-1szi3a,
-        .framer-ly5gO .framer-1p4yhym,
-        .framer-ly5gO .framer-ur9l6o,
-        .framer-ly5gO .framer-innraa,
-        .framer-ly5gO .framer-74rmwr,
-        .framer-ly5gO .framer-zxstbr,
-        .framer-ly5gO .framer-1yd2sho,
-        .framer-ly5gO .framer-xf9yzf,
-        .framer-ly5gO .framer-1j5jbwl,
-        .framer-ly5gO .framer-oq8tyg,
-        .framer-ly5gO .framer-egy8az,
-        .framer-ly5gO .framer-1s9tot6,
-        .framer-ly5gO .framer-1epypm,
-        .framer-ly5gO .framer-lf6zoc,
-        .framer-ly5gO .framer-562gyw,
-        .framer-ly5gO .framer-10e06qv,
-        .framer-ly5gO .framer-nm7b5v,
-        .framer-ly5gO .framer-1jpv1g6,
-        .framer-ly5gO .framer-dzct4x,
-        .framer-ly5gO .framer-3kjj8k,
-        .framer-ly5gO .framer-25jtvs,
-        .framer-ly5gO .framer-1ym2mx4,
-        .framer-ly5gO .framer-11ydcd9,
-        .framer-ly5gO .framer-118mw4q,
-        .framer-ly5gO .framer-1j65rb5,
-        .framer-ly5gO .framer-13gx3js,
-        .framer-ly5gO .framer-16uw82j,
-        .framer-ly5gO .framer-v7ill1,
-        .framer-ly5gO .framer-ho3pv9 {
+        .framer-A4wnC .framer-ur7119,
+        .framer-A4wnC .framer-3xcdo3,
+        .framer-A4wnC .framer-m0kkuv,
+        .framer-A4wnC .framer-2nx2ax,
+        .framer-A4wnC .framer-19ieffi,
+        .framer-A4wnC .framer-12pisea,
+        .framer-A4wnC .framer-1056clz,
+        .framer-A4wnC .framer-1dwwiie,
+        .framer-A4wnC .framer-i80qjk,
+        .framer-A4wnC .framer-1hts7lk,
+        .framer-A4wnC .framer-1kqkgge,
+        .framer-A4wnC .framer-13wc0ne,
+        .framer-A4wnC .framer-7id5x7,
+        .framer-A4wnC .framer-batc6e,
+        .framer-A4wnC .framer-1w16ccz,
+        .framer-A4wnC .framer-1ioqh86,
+        .framer-A4wnC .framer-7iejwi,
+        .framer-A4wnC .framer-pod3ep,
+        .framer-A4wnC .framer-1darbce,
+        .framer-A4wnC .framer-oouqmu,
+        .framer-A4wnC .framer-1s74dgo,
+        .framer-A4wnC .framer-1jw7hz8,
+        .framer-A4wnC .framer-mfxjwl,
+        .framer-A4wnC .framer-1ukd4r8,
+        .framer-A4wnC .framer-no7jo5,
+        .framer-A4wnC .framer-1s7dxx0,
+        .framer-A4wnC .framer-8yzffi,
+        .framer-A4wnC .framer-bnwo0l,
+        .framer-A4wnC .framer-1pljiin,
+        .framer-A4wnC .framer-1trncb9,
+        .framer-A4wnC .framer-zny4xv,
+        .framer-A4wnC .framer-15ujg0x,
+        .framer-A4wnC .framer-1lzm9vv,
+        .framer-A4wnC .framer-t3ktcf,
+        .framer-A4wnC .framer-1wmyhtz,
+        .framer-A4wnC .framer-nw6ti3,
+        .framer-A4wnC .framer-1m6oy24,
+        .framer-A4wnC .framer-1cm9z0x,
+        .framer-A4wnC .framer-lrpfmo,
+        .framer-A4wnC .framer-13fz0eh,
+        .framer-A4wnC .framer-14i7502,
+        .framer-A4wnC .framer-197zmtc,
+        .framer-A4wnC .framer-12tkb2q,
+        .framer-A4wnC .framer-1xlinjf,
+        .framer-A4wnC .framer-ieus3q,
+        .framer-A4wnC .framer-1usc92o,
+        .framer-A4wnC .framer-hrigjf,
+        .framer-A4wnC .framer-1hwupwo,
+        .framer-A4wnC .framer-fwvb1k,
+        .framer-A4wnC .framer-1v6g6th,
+        .framer-A4wnC .framer-1n4om8z,
+        .framer-A4wnC .framer-1ng4n3m,
+        .framer-A4wnC .framer-q85qy0,
+        .framer-A4wnC .framer-1mo4wu5,
+        .framer-A4wnC .framer-oxk27r,
+        .framer-A4wnC .framer-q39geu,
+        .framer-A4wnC .framer-1szi3a,
+        .framer-A4wnC .framer-1p4yhym,
+        .framer-A4wnC .framer-ur9l6o,
+        .framer-A4wnC .framer-innraa,
+        .framer-A4wnC .framer-74rmwr,
+        .framer-A4wnC .framer-zxstbr,
+        .framer-A4wnC .framer-1yd2sho,
+        .framer-A4wnC .framer-xf9yzf,
+        .framer-A4wnC .framer-1j5jbwl,
+        .framer-A4wnC .framer-oq8tyg,
+        .framer-A4wnC .framer-egy8az,
+        .framer-A4wnC .framer-1s9tot6,
+        .framer-A4wnC .framer-1epypm,
+        .framer-A4wnC .framer-lf6zoc,
+        .framer-A4wnC .framer-562gyw,
+        .framer-A4wnC .framer-10e06qv,
+        .framer-A4wnC .framer-nm7b5v,
+        .framer-A4wnC .framer-1jpv1g6,
+        .framer-A4wnC .framer-dzct4x,
+        .framer-A4wnC .framer-3kjj8k,
+        .framer-A4wnC .framer-25jtvs,
+        .framer-A4wnC .framer-1ym2mx4,
+        .framer-A4wnC .framer-11ydcd9,
+        .framer-A4wnC .framer-118mw4q,
+        .framer-A4wnC .framer-1j65rb5,
+        .framer-A4wnC .framer-13gx3js,
+        .framer-A4wnC .framer-16uw82j,
+        .framer-A4wnC .framer-v7ill1,
+        .framer-A4wnC .framer-ho3pv9 {
             --framer-paragraph-spacing: 0px;
             flex: none;
             height: auto;
@@ -1497,7 +1515,7 @@
             width: auto
         }
 
-        .framer-ly5gO .framer-167y1ym {
+        .framer-A4wnC .framer-167y1ym {
             align-content: flex-end;
             align-items: flex-end;
             display: flex;
@@ -1513,7 +1531,7 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-1601psb {
+        .framer-A4wnC .framer-1601psb {
             align-content: center;
             align-items: center;
             display: flex;
@@ -1529,7 +1547,7 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-6zz41o {
+        .framer-A4wnC .framer-6zz41o {
             align-content: center;
             align-items: center;
             display: flex;
@@ -1545,7 +1563,7 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-dwoedl {
+        .framer-A4wnC .framer-dwoedl {
             align-content: center;
             align-items: center;
             display: flex;
@@ -1561,7 +1579,7 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-1yjuoxr {
+        .framer-A4wnC .framer-1yjuoxr {
             --framer-input-background: #f2f2f2;
             --framer-input-border-bottom-width: 1px;
             --framer-input-border-color: rgba(0, 0, 0, .05);
@@ -1593,7 +1611,7 @@
             width: 200px
         }
 
-        .framer-ly5gO .framer-1ei6hyu {
+        .framer-A4wnC .framer-1ei6hyu {
             flex: none;
             height: 16px;
             position: absolute;
@@ -1603,7 +1621,7 @@
             z-index: 1
         }
 
-        .framer-ly5gO .framer-bzhelw {
+        .framer-A4wnC .framer-bzhelw {
             --border-bottom-width: .7272726893424988px;
             --border-color: rgba(33, 33, 33, .1);
             --border-left-width: .7272726893424988px;
@@ -1627,24 +1645,24 @@
             will-change: var(--framer-will-change-override, transform)
         }
 
-        .framer-ly5gO .framer-1bwnjtz {
+        .framer-A4wnC .framer-1bwnjtz {
             flex: none;
             height: 16px;
             position: relative;
             width: 16px
         }
 
-        .framer-ly5gO .framer-dmvdxu,
-        .framer-ly5gO .framer-1v5sp5s {
+        .framer-A4wnC .framer-dmvdxu,
+        .framer-A4wnC .framer-1v5sp5s {
             flex: none;
             height: 32px;
             position: relative;
             width: 32px
         }
 
-        .framer-ly5gO .framer-7k14i,
-        .framer-ly5gO .framer-lbh6dn,
-        .framer-ly5gO .framer-ywuhrl {
+        .framer-A4wnC .framer-7k14i,
+        .framer-A4wnC .framer-lbh6dn,
+        .framer-A4wnC .framer-ywuhrl {
             align-content: center;
             align-items: center;
             display: flex;
@@ -1660,7 +1678,7 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-19plmyb {
+        .framer-A4wnC .framer-19plmyb {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -1676,8 +1694,8 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-1ddranq,
-        .framer-ly5gO .framer-2tvcz8 {
+        .framer-A4wnC .framer-1ddranq,
+        .framer-A4wnC .framer-2tvcz8 {
             align-content: center;
             align-items: center;
             display: flex;
@@ -1693,17 +1711,17 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-1p38xoc,
-        .framer-ly5gO .framer-h4x2r,
-        .framer-ly5gO .framer-1g24uo7,
-        .framer-ly5gO .framer-yexjv2 {
+        .framer-A4wnC .framer-1p38xoc,
+        .framer-A4wnC .framer-h4x2r,
+        .framer-A4wnC .framer-1g24uo7,
+        .framer-A4wnC .framer-yexjv2 {
             flex: none;
             height: 14px;
             position: relative;
             width: 4px
         }
 
-        .framer-ly5gO .framer-1ufordd {
+        .framer-A4wnC .framer-1ufordd {
             align-content: center;
             align-items: center;
             display: flex;
@@ -1719,7 +1737,7 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-2qzs81 {
+        .framer-A4wnC .framer-2qzs81 {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -1734,8 +1752,8 @@
             width: 250px
         }
 
-        .framer-ly5gO .framer-we0yhg,
-        .framer-ly5gO .framer-1nwha69 {
+        .framer-A4wnC .framer-we0yhg,
+        .framer-A4wnC .framer-1nwha69 {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -1751,7 +1769,7 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-t9fxy7 {
+        .framer-A4wnC .framer-t9fxy7 {
             align-content: flex-start;
             align-items: flex-start;
             background-color: #21212108;
@@ -1770,18 +1788,18 @@
             will-change: var(--framer-will-change-override, transform)
         }
 
-        .framer-ly5gO .framer-9qg1ua,
-        .framer-ly5gO .framer-1bhcs6j,
-        .framer-ly5gO .framer-14tqqph,
-        .framer-ly5gO .framer-434eau,
-        .framer-ly5gO .framer-1hgovt6 {
+        .framer-A4wnC .framer-9qg1ua,
+        .framer-A4wnC .framer-1bhcs6j,
+        .framer-A4wnC .framer-14tqqph,
+        .framer-A4wnC .framer-434eau,
+        .framer-A4wnC .framer-1hgovt6 {
             flex: none;
             height: 20px;
             position: relative;
             width: 20px
         }
 
-        .framer-ly5gO .framer-1mfwms4 {
+        .framer-A4wnC .framer-1mfwms4 {
             align-content: flex-start;
             align-items: flex-start;
             border-radius: 10px;
@@ -1799,10 +1817,10 @@
             will-change: var(--framer-will-change-override, transform)
         }
 
-        .framer-ly5gO .framer-ax3ty8,
-        .framer-ly5gO .framer-1lh7b4a,
-        .framer-ly5gO .framer-1ttbw9a,
-        .framer-ly5gO .framer-1ouxd45 {
+        .framer-A4wnC .framer-ax3ty8,
+        .framer-A4wnC .framer-1lh7b4a,
+        .framer-A4wnC .framer-1ttbw9a,
+        .framer-A4wnC .framer-1ouxd45 {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -1818,15 +1836,15 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-b9g5ui,
-        .framer-ly5gO .framer-8xf6c2 {
+        .framer-A4wnC .framer-b9g5ui,
+        .framer-A4wnC .framer-8xf6c2 {
             flex: none;
             height: 19px;
             position: relative;
             width: 19px
         }
 
-        .framer-ly5gO .framer-170l14k {
+        .framer-A4wnC .framer-170l14k {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -1842,7 +1860,7 @@
             width: 1px
         }
 
-        .framer-ly5gO .framer-xsdog9 {
+        .framer-A4wnC .framer-xsdog9 {
             align-content: flex-start;
             align-items: flex-start;
             background-color: #fff;
@@ -1859,8 +1877,8 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-fx5i05,
-        .framer-ly5gO .framer-q13uq5 {
+        .framer-A4wnC .framer-fx5i05,
+        .framer-A4wnC .framer-q13uq5 {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -1876,7 +1894,7 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-21anfs {
+        .framer-A4wnC .framer-21anfs {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -1892,7 +1910,7 @@
             width: 1px
         }
 
-        .framer-ly5gO .framer-nsude0 {
+        .framer-A4wnC .framer-nsude0 {
             --border-bottom-width: 1px;
             --border-color: rgba(33, 33, 33, .05);
             --border-left-width: 1px;
@@ -1916,7 +1934,7 @@
             will-change: var(--framer-will-change-override, transform)
         }
 
-        .framer-ly5gO .framer-10my308 {
+        .framer-A4wnC .framer-10my308 {
             align-content: center;
             align-items: center;
             display: flex;
@@ -1932,7 +1950,7 @@
             width: 1px
         }
 
-        .framer-ly5gO .framer-b2kqy1 {
+        .framer-A4wnC .framer-b2kqy1 {
             align-content: center;
             align-items: center;
             display: flex;
@@ -1948,7 +1966,7 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-187ttu9 {
+        .framer-A4wnC .framer-187ttu9 {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -1964,7 +1982,7 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-j4miv2 {
+        .framer-A4wnC .framer-j4miv2 {
             align-content: center;
             align-items: center;
             background: linear-gradient(90deg, #050505, #6b6b6b, #050505);
@@ -1983,9 +2001,9 @@
             width: 1px
         }
 
-        .framer-ly5gO.framer-bhqphd,
-        .framer-ly5gO.framer-ugbber,
-        .framer-ly5gO.framer-zavlxn {
+        .framer-A4wnC.framer-bhqphd,
+        .framer-A4wnC.framer-ugbber,
+        .framer-A4wnC.framer-zavlxn {
             background-color: #000c;
             inset: 0;
             position: fixed;
@@ -1993,7 +2011,7 @@
             z-index: 1
         }
 
-        .framer-ly5gO.framer-k2276c {
+        .framer-A4wnC.framer-k2276c {
             --border-bottom-width: 1.5px;
             --border-color: rgba(255, 255, 255, .2);
             --border-left-width: 1.5px;
@@ -2011,13 +2029,13 @@
             flex: none;
             flex-direction: column;
             flex-wrap: nowrap;
-            gap: 20px;
+            gap: 32px;
             height: min-content;
             justify-content: center;
             left: 50%;
             max-width: 500px;
             overflow: hidden;
-            padding: 0;
+            padding: 32px;
             position: fixed;
             top: 80px;
             transform: translate(-50%);
@@ -2026,14 +2044,183 @@
             z-index: 4
         }
 
-        .framer-ly5gO .framer-18bvs3o-container {
+        .framer-A4wnC .framer-g1fowx {
             flex: none;
-            height: auto;
+            height: 60px;
+            position: relative;
+            width: 60px
+        }
+
+        .framer-A4wnC .framer-t90xcp {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex: none;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 12px;
+            height: min-content;
+            justify-content: center;
+            overflow: var(--overflow-clip-fallback, clip);
+            padding: 0;
             position: relative;
             width: 100%
         }
 
-        .framer-ly5gO .framer-16tnwek {
+        .framer-A4wnC .framer-6squmn,
+        .framer-A4wnC .framer-4ax6lh,
+        .framer-A4wnC .framer-1jpgezj,
+        .framer-A4wnC .framer-16dhpvh,
+        .framer-A4wnC .framer-1bwb7us,
+        .framer-A4wnC .framer-11wm5f8 {
+            --framer-link-text-color: #0099ff;
+            --framer-link-text-decoration: underline;
+            flex: none;
+            height: auto;
+            position: relative;
+            white-space: pre-wrap;
+            width: 100%;
+            word-break: break-word;
+            word-wrap: break-word
+        }
+
+        .framer-A4wnC .framer-lj3pr2 {
+            align-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            flex: none;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 16px;
+            height: min-content;
+            justify-content: center;
+            overflow: var(--overflow-clip-fallback, clip);
+            padding: 0;
+            position: relative;
+            width: 100%
+        }
+
+        .framer-A4wnC .framer-1p892mz,
+        .framer-A4wnC .framer-13n2ylp,
+        .framer-A4wnC .framer-1htuahk,
+        .framer-A4wnC .framer-tgei0o,
+        .framer-A4wnC .framer-di980r,
+        .framer-A4wnC .framer-pe9o8k {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex: none;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            height: min-content;
+            justify-content: space-between;
+            overflow: var(--overflow-clip-fallback, clip);
+            padding: 0;
+            position: relative;
+            width: 100%
+        }
+
+        .framer-A4wnC .framer-17zvepf,
+        .framer-A4wnC .framer-16l2jgr,
+        .framer-A4wnC .framer-adc8vn,
+        .framer-A4wnC .framer-1wdbpgn,
+        .framer-A4wnC .framer-19zwtqt,
+        .framer-A4wnC .framer-1ntsash,
+        .framer-A4wnC .framer-ze2s53,
+        .framer-A4wnC .framer-1p3mj0u,
+        .framer-A4wnC .framer-1q4uwtm,
+        .framer-A4wnC .framer-188jnub,
+        .framer-A4wnC .framer-yu31qi,
+        .framer-A4wnC .framer-1ecu2qn,
+        .framer-A4wnC .framer-12586nv {
+            --framer-link-text-color: #0099ff;
+            --framer-link-text-decoration: underline;
+            flex: none;
+            height: auto;
+            position: relative;
+            white-space: pre;
+            width: auto
+        }
+
+        .framer-A4wnC .framer-1vjenbu {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex: none;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 8px;
+            height: min-content;
+            justify-content: center;
+            overflow: var(--overflow-clip-fallback, clip);
+            padding: 0;
+            position: relative;
+            width: 100%
+        }
+
+        .framer-A4wnC .framer-11rsc98 {
+            align-content: center;
+            align-items: center;
+            background-color: #212121;
+            border-radius: 10px;
+            display: flex;
+            flex: none;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 10px;
+            height: 40px;
+            justify-content: center;
+            overflow: var(--overflow-clip-fallback, clip);
+            padding: 0;
+            position: relative;
+            width: 100%;
+            will-change: var(--framer-will-change-override, transform)
+        }
+
+        .framer-A4wnC .framer-1ibjqj8 {
+            --1ww558a: 1.5;
+            --4rxgx6: #ffffff;
+            flex: none;
+            height: var(--framer-aspect-ratio-supported, 20px);
+            position: relative;
+            width: 20px
+        }
+
+        .framer-A4wnC .framer-19mm74e {
+            --border-bottom-width: 1px;
+            --border-color: #222222;
+            --border-left-width: 1px;
+            --border-right-width: 1px;
+            --border-style: solid;
+            --border-top-width: 1px;
+            align-content: center;
+            align-items: center;
+            border-radius: 10px;
+            display: flex;
+            flex: none;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 10px;
+            height: 40px;
+            justify-content: center;
+            overflow: var(--overflow-clip-fallback, clip);
+            padding: 0;
+            position: relative;
+            text-decoration: none;
+            width: 100%;
+            will-change: var(--framer-will-change-override, transform)
+        }
+
+        .framer-A4wnC .framer-1gya5cl {
+            --1ww558a: 1.5;
+            --4rxgx6: #000000;
+            flex: none;
+            height: var(--framer-aspect-ratio-supported, 20px);
+            position: relative;
+            width: 20px
+        }
+
+        .framer-A4wnC .framer-16tnwek {
             --border-bottom-width: 1px;
             --border-color: rgba(0, 0, 0, .05);
             --border-left-width: 1px;
@@ -2058,8 +2245,8 @@
             width: 1px
         }
 
-        .framer-ly5gO.framer-158ho7b,
-        .framer-ly5gO.framer-1d0x7a3 {
+        .framer-A4wnC.framer-158ho7b,
+        .framer-A4wnC.framer-1d0x7a3 {
             --border-bottom-width: 1.5px;
             --border-color: rgba(255, 255, 255, .2);
             --border-left-width: 1.5px;
@@ -2092,8 +2279,8 @@
             z-index: 4
         }
 
-        .framer-ly5gO .framer-bu7uae,
-        .framer-ly5gO .framer-o0wgh1 {
+        .framer-A4wnC .framer-bu7uae,
+        .framer-A4wnC .framer-o0wgh1 {
             align-content: center;
             align-items: center;
             background-color: #ff00001a;
@@ -2112,16 +2299,16 @@
             will-change: var(--framer-will-change-override, transform)
         }
 
-        .framer-ly5gO .framer-9tq6lg-container,
-        .framer-ly5gO .framer-1lussy9-container {
+        .framer-A4wnC .framer-9tq6lg-container,
+        .framer-A4wnC .framer-1lussy9-container {
             flex: none;
             height: 21px;
             position: relative;
             width: 21px
         }
 
-        .framer-ly5gO .framer-d90ck5,
-        .framer-ly5gO .framer-5yutoy {
+        .framer-A4wnC .framer-d90ck5,
+        .framer-A4wnC .framer-5yutoy {
             align-content: center;
             align-items: center;
             display: flex;
@@ -2137,23 +2324,8 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-1jpgezj,
-        .framer-ly5gO .framer-16dhpvh,
-        .framer-ly5gO .framer-1bwb7us,
-        .framer-ly5gO .framer-11wm5f8 {
-            --framer-link-text-color: #0099ff;
-            --framer-link-text-decoration: underline;
-            flex: none;
-            height: auto;
-            position: relative;
-            white-space: pre-wrap;
-            width: 100%;
-            word-break: break-word;
-            word-wrap: break-word
-        }
-
-        .framer-ly5gO .framer-f28d4a,
-        .framer-ly5gO .framer-1cmyynj {
+        .framer-A4wnC .framer-f28d4a,
+        .framer-A4wnC .framer-1cmyynj {
             align-content: center;
             align-items: center;
             background-color: #0a0a0a;
@@ -2171,8 +2343,8 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-1iutgzn,
-        .framer-ly5gO .framer-c8vifh {
+        .framer-A4wnC .framer-1iutgzn,
+        .framer-A4wnC .framer-c8vifh {
             flex: none;
             height: auto;
             position: relative;
@@ -2182,7 +2354,7 @@
             word-wrap: break-word
         }
 
-        .framer-ly5gO .framer-tow32w {
+        .framer-A4wnC .framer-tow32w {
             --border-bottom-width: 1px;
             --border-color: rgba(33, 33, 33, .05);
             --border-left-width: 1px;
@@ -2205,7 +2377,7 @@
             width: 1px
         }
 
-        .framer-ly5gO .framer-1jgi59i {
+        .framer-A4wnC .framer-1jgi59i {
             align-content: center;
             align-items: center;
             display: flex;
@@ -2221,8 +2393,8 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-1kk8quo,
-        .framer-ly5gO .framer-yn7j0v {
+        .framer-A4wnC .framer-1kk8quo,
+        .framer-A4wnC .framer-yn7j0v {
             align-content: center;
             align-items: center;
             display: flex;
@@ -2238,11 +2410,11 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-126pu6m,
-        .framer-ly5gO .framer-wxi0ur,
-        .framer-ly5gO .framer-1axk30g,
-        .framer-ly5gO .framer-ccmwo7,
-        .framer-ly5gO .framer-542ee4 {
+        .framer-A4wnC .framer-126pu6m,
+        .framer-A4wnC .framer-wxi0ur,
+        .framer-A4wnC .framer-1axk30g,
+        .framer-A4wnC .framer-ccmwo7,
+        .framer-A4wnC .framer-542ee4 {
             align-content: center;
             align-items: center;
             display: flex;
@@ -2258,12 +2430,12 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-1uvly9e,
-        .framer-ly5gO .framer-ojbzol,
-        .framer-ly5gO .framer-lbkc7v,
-        .framer-ly5gO .framer-4i1rs0,
-        .framer-ly5gO .framer-wwqcdq,
-        .framer-ly5gO .framer-1g263yr {
+        .framer-A4wnC .framer-1uvly9e,
+        .framer-A4wnC .framer-ojbzol,
+        .framer-A4wnC .framer-lbkc7v,
+        .framer-A4wnC .framer-4i1rs0,
+        .framer-A4wnC .framer-wwqcdq,
+        .framer-A4wnC .framer-1g263yr {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -2279,8 +2451,8 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-10q5vi6,
-        .framer-ly5gO .framer-r5mlgo {
+        .framer-A4wnC .framer-10q5vi6,
+        .framer-A4wnC .framer-r5mlgo {
             align-content: flex-end;
             align-items: flex-end;
             display: flex;
@@ -2296,7 +2468,7 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-13icft6 {
+        .framer-A4wnC .framer-13icft6 {
             aspect-ratio: 1 / 1;
             flex: none;
             height: var(--framer-aspect-ratio-supported, 24px);
@@ -2304,7 +2476,7 @@
             width: 24px
         }
 
-        .framer-ly5gO .framer-17sl6ql {
+        .framer-A4wnC .framer-17sl6ql {
             --border-bottom-width: 1px;
             --border-color: rgba(33, 33, 33, .05);
             --border-left-width: 1px;
@@ -2328,7 +2500,7 @@
             will-change: var(--framer-will-change-override, transform)
         }
 
-        .framer-ly5gO .framer-1b3iwem {
+        .framer-A4wnC .framer-1b3iwem {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -2344,9 +2516,9 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-1vdvve4,
-        .framer-ly5gO .framer-1xewmhm,
-        .framer-ly5gO .framer-1b2tcun {
+        .framer-A4wnC .framer-1vdvve4,
+        .framer-A4wnC .framer-1xewmhm,
+        .framer-A4wnC .framer-1b2tcun {
             --border-bottom-width: 1px;
             --border-color: rgba(0, 0, 0, .05);
             --border-left-width: 1px;
@@ -2370,12 +2542,12 @@
             will-change: var(--framer-will-change-override, transform)
         }
 
-        .framer-ly5gO .framer-1li4mp2,
-        .framer-ly5gO .framer-170u7sw,
-        .framer-ly5gO .framer-1t1ronr,
-        .framer-ly5gO .framer-1f56d5a,
-        .framer-ly5gO .framer-74jvd,
-        .framer-ly5gO .framer-1baegun {
+        .framer-A4wnC .framer-1li4mp2,
+        .framer-A4wnC .framer-170u7sw,
+        .framer-A4wnC .framer-1t1ronr,
+        .framer-A4wnC .framer-1f56d5a,
+        .framer-A4wnC .framer-74jvd,
+        .framer-A4wnC .framer-1baegun {
             align-content: center;
             align-items: center;
             display: flex;
@@ -2390,26 +2562,26 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-zasthn,
-        .framer-ly5gO .framer-1ua9y1t,
-        .framer-ly5gO .framer-hkv6p3,
-        .framer-ly5gO .framer-1fo82dc {
+        .framer-A4wnC .framer-zasthn,
+        .framer-A4wnC .framer-1ua9y1t,
+        .framer-A4wnC .framer-hkv6p3,
+        .framer-A4wnC .framer-1fo82dc {
             flex: none;
             height: 28px;
             position: relative;
             width: 28px
         }
 
-        .framer-ly5gO .framer-1iqd381 {
+        .framer-A4wnC .framer-1iqd381 {
             flex: none;
             height: 30px;
             position: relative;
             width: 31px
         }
 
-        .framer-ly5gO .framer-7t05c6,
-        .framer-ly5gO .framer-1tx6ybp,
-        .framer-ly5gO .framer-1vcy8u4 {
+        .framer-A4wnC .framer-7t05c6,
+        .framer-A4wnC .framer-1tx6ybp,
+        .framer-A4wnC .framer-1vcy8u4 {
             --framer-paragraph-spacing: 0px;
             flex: none;
             height: auto;
@@ -2420,10 +2592,10 @@
             word-wrap: break-word
         }
 
-        .framer-ly5gO .framer-hrshea,
-        .framer-ly5gO .framer-rw7i0h,
-        .framer-ly5gO .framer-h2254n,
-        .framer-ly5gO .framer-1syods0 {
+        .framer-A4wnC .framer-hrshea,
+        .framer-A4wnC .framer-rw7i0h,
+        .framer-A4wnC .framer-h2254n,
+        .framer-A4wnC .framer-1syods0 {
             align-content: center;
             align-items: center;
             display: flex;
@@ -2439,8 +2611,8 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-5pjeb6,
-        .framer-ly5gO .framer-1n9eaxn {
+        .framer-A4wnC .framer-5pjeb6,
+        .framer-A4wnC .framer-1n9eaxn {
             --border-bottom-width: 1px;
             --border-color: rgba(68, 204, 0, .4);
             --border-left-width: 1px;
@@ -2464,20 +2636,20 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-22ef1h,
-        .framer-ly5gO .framer-1nbvk1t,
-        .framer-ly5gO .framer-1i60p8t,
-        .framer-ly5gO .framer-1oujeid,
-        .framer-ly5gO .framer-rca2sh,
-        .framer-ly5gO .framer-1t4tqbp,
-        .framer-ly5gO .framer-1dwwczc {
+        .framer-A4wnC .framer-22ef1h,
+        .framer-A4wnC .framer-1nbvk1t,
+        .framer-A4wnC .framer-1i60p8t,
+        .framer-A4wnC .framer-1oujeid,
+        .framer-A4wnC .framer-rca2sh,
+        .framer-A4wnC .framer-1t4tqbp,
+        .framer-A4wnC .framer-1dwwczc {
             flex: none;
             height: 30px;
             position: relative;
             width: 30px
         }
 
-        .framer-ly5gO .framer-1ysj8rr {
+        .framer-A4wnC .framer-1ysj8rr {
             --border-bottom-width: 1px;
             --border-color: rgba(204, 0, 0, .4);
             --border-left-width: 1px;
@@ -2501,7 +2673,7 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-1cp9ut9 {
+        .framer-A4wnC .framer-1cp9ut9 {
             --border-bottom-width: 1px;
             --border-color: rgba(33, 33, 33, .05);
             --border-left-width: 1px;
@@ -2526,7 +2698,7 @@
             will-change: var(--framer-will-change-override, transform)
         }
 
-        .framer-ly5gO .framer-mx7mrm {
+        .framer-A4wnC .framer-mx7mrm {
             align-content: flex-start;
             align-items: flex-start;
             background-color: #f7f7f7;
@@ -2542,7 +2714,7 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-rc5h7c {
+        .framer-A4wnC .framer-rc5h7c {
             --border-bottom-width: 0px;
             --border-color: rgba(33, 33, 33, .05);
             --border-left-width: 0px;
@@ -2566,7 +2738,7 @@
             width: 1px
         }
 
-        .framer-ly5gO .framer-1wusqzv {
+        .framer-A4wnC .framer-1wusqzv {
             --border-bottom-width: 1px;
             --border-color: rgba(33, 33, 33, .05);
             --border-left-width: 0px;
@@ -2590,7 +2762,7 @@
             width: 1px
         }
 
-        .framer-ly5gO .framer-1j5237b {
+        .framer-A4wnC .framer-1j5237b {
             align-content: center;
             align-items: center;
             display: flex;
@@ -2606,10 +2778,10 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-1tztdko,
-        .framer-ly5gO .framer-d8yjss,
-        .framer-ly5gO .framer-1iu7aa7,
-        .framer-ly5gO .framer-1whuzat {
+        .framer-A4wnC .framer-1tztdko,
+        .framer-A4wnC .framer-d8yjss,
+        .framer-A4wnC .framer-1iu7aa7,
+        .framer-A4wnC .framer-1whuzat {
             --border-bottom-width: 1px;
             --border-color: rgba(33, 33, 33, .05);
             --border-left-width: 1px;
@@ -2631,14 +2803,14 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-1mcz51u,
-        .framer-ly5gO .framer-1avsy0j,
-        .framer-ly5gO .framer-173b3ue,
-        .framer-ly5gO .framer-17bugz9,
-        .framer-ly5gO .framer-dfbuxl,
-        .framer-ly5gO .framer-14h374z,
-        .framer-ly5gO .framer-rt2hwy,
-        .framer-ly5gO .framer-x1hcyh {
+        .framer-A4wnC .framer-1mcz51u,
+        .framer-A4wnC .framer-1avsy0j,
+        .framer-A4wnC .framer-173b3ue,
+        .framer-A4wnC .framer-17bugz9,
+        .framer-A4wnC .framer-dfbuxl,
+        .framer-A4wnC .framer-14h374z,
+        .framer-A4wnC .framer-rt2hwy,
+        .framer-A4wnC .framer-x1hcyh {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -2654,17 +2826,17 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-m19jdf,
-        .framer-ly5gO .framer-mmtizj {
+        .framer-A4wnC .framer-m19jdf,
+        .framer-A4wnC .framer-mmtizj {
             flex: none;
             height: 11px;
             position: relative;
             width: 10px
         }
 
-        .framer-ly5gO .framer-kdz4ur,
-        .framer-ly5gO .framer-gpsl9a,
-        .framer-ly5gO .framer-2c4a4u {
+        .framer-A4wnC .framer-kdz4ur,
+        .framer-A4wnC .framer-gpsl9a,
+        .framer-A4wnC .framer-2c4a4u {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -2680,7 +2852,7 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-x8engt {
+        .framer-A4wnC .framer-x8engt {
             align-content: center;
             align-items: center;
             background: linear-gradient(90deg, #050505, #6b6b6b, #050505);
@@ -2699,7 +2871,7 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-1h2bedn {
+        .framer-A4wnC .framer-1h2bedn {
             --border-bottom-width: 1px;
             --border-color: rgba(33, 33, 33, .05);
             --border-left-width: 1px;
@@ -2723,7 +2895,7 @@
             will-change: var(--framer-will-change-override, transform)
         }
 
-        .framer-ly5gO .framer-x3tx32 {
+        .framer-A4wnC .framer-x3tx32 {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -2739,15 +2911,15 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-1d56eg,
-        .framer-ly5gO .framer-1prfa2t {
+        .framer-A4wnC .framer-1d56eg,
+        .framer-A4wnC .framer-1prfa2t {
             flex: none;
             height: 10px;
             position: relative;
             width: 10px
         }
 
-        .framer-ly5gO .framer-k42iae {
+        .framer-A4wnC .framer-k42iae {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -2763,7 +2935,7 @@
             width: 523px
         }
 
-        .framer-ly5gO .framer-1xazb1y {
+        .framer-A4wnC .framer-1xazb1y {
             --border-bottom-width: 1px;
             --border-color: rgba(68, 204, 0, .4);
             --border-left-width: 1px;
@@ -2787,7 +2959,7 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-2wym3a {
+        .framer-A4wnC .framer-2wym3a {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -2803,7 +2975,7 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-nv2534 {
+        .framer-A4wnC .framer-nv2534 {
             align-content: flex-start;
             align-items: flex-start;
             background-color: #fff;
@@ -2820,7 +2992,7 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-dpocpc {
+        .framer-A4wnC .framer-dpocpc {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -2836,7 +3008,7 @@
             width: 1px
         }
 
-        .framer-ly5gO .framer-5ka7we {
+        .framer-A4wnC .framer-5ka7we {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -2852,7 +3024,7 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-1jp1poo {
+        .framer-A4wnC .framer-1jp1poo {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -2867,14 +3039,14 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-1p1bgi0 {
+        .framer-A4wnC .framer-1p1bgi0 {
             flex: 1 0 0px;
             height: 100%;
             position: relative;
             width: 1px
         }
 
-        .framer-ly5gO .framer-1luz5s0 {
+        .framer-A4wnC .framer-1luz5s0 {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -2889,7 +3061,7 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-18kb22c {
+        .framer-A4wnC .framer-18kb22c {
             --border-bottom-width: 1px;
             --border-color: rgba(33, 33, 33, .05);
             --border-left-width: 1px;
@@ -2911,11 +3083,11 @@
             width: 280px
         }
 
-        .framer-ly5gO .framer-1ukzrku,
-        .framer-ly5gO .framer-c7ugjq,
-        .framer-ly5gO .framer-xnco84,
-        .framer-ly5gO .framer-rlmynw,
-        .framer-ly5gO .framer-18cyprg {
+        .framer-A4wnC .framer-1ukzrku,
+        .framer-A4wnC .framer-c7ugjq,
+        .framer-A4wnC .framer-xnco84,
+        .framer-A4wnC .framer-rlmynw,
+        .framer-A4wnC .framer-18cyprg {
             align-content: center;
             align-items: center;
             display: flex;
@@ -2931,14 +3103,14 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-16mrcqk {
+        .framer-A4wnC .framer-16mrcqk {
             flex: none;
             height: 26px;
             position: relative;
             width: 26px
         }
 
-        .framer-ly5gO .framer-1y6lauq {
+        .framer-A4wnC .framer-1y6lauq {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -2954,10 +3126,10 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-1q8zdav,
-        .framer-ly5gO .framer-1q42cu5,
-        .framer-ly5gO .framer-qddvmq,
-        .framer-ly5gO .framer-uxlrb3 {
+        .framer-A4wnC .framer-1q8zdav,
+        .framer-A4wnC .framer-1q42cu5,
+        .framer-A4wnC .framer-qddvmq,
+        .framer-A4wnC .framer-uxlrb3 {
             --border-bottom-width: 1px;
             --border-color: rgba(68, 204, 0, .4);
             --border-left-width: 1px;
@@ -2981,7 +3153,7 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-1m60ewy {
+        .framer-A4wnC .framer-1m60ewy {
             align-content: center;
             align-items: center;
             display: flex;
@@ -2997,7 +3169,7 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-pe1n0x {
+        .framer-A4wnC .framer-pe1n0x {
             align-content: center;
             align-items: center;
             background: linear-gradient(90deg, #fc3, #fff2cc);
@@ -3016,7 +3188,7 @@
             width: 150px
         }
 
-        .framer-ly5gO .framer-1c1xf8r {
+        .framer-A4wnC .framer-1c1xf8r {
             align-content: center;
             align-items: center;
             background: linear-gradient(90deg, #6081ea, #d1dbf9);
@@ -3035,7 +3207,7 @@
             width: 1px
         }
 
-        .framer-ly5gO .framer-byfgqp {
+        .framer-A4wnC .framer-byfgqp {
             align-content: center;
             align-items: center;
             background: linear-gradient(90deg, #282828, #a8a8a8);
@@ -3054,7 +3226,7 @@
             width: 1px
         }
 
-        .framer-ly5gO .framer-mm5zta {
+        .framer-A4wnC .framer-mm5zta {
             align-content: flex-start;
             align-items: flex-start;
             display: flex;
@@ -3070,9 +3242,9 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-z33jfw,
-        .framer-ly5gO .framer-zsf3zr,
-        .framer-ly5gO .framer-4il6cp {
+        .framer-A4wnC .framer-z33jfw,
+        .framer-A4wnC .framer-zsf3zr,
+        .framer-A4wnC .framer-4il6cp {
             --border-bottom-width: 1px;
             --border-color: rgba(33, 33, 33, .05);
             --border-left-width: 0px;
@@ -3093,7 +3265,7 @@
             width: 100%
         }
 
-        .framer-ly5gO .framer-1cf2gyg {
+        .framer-A4wnC .framer-1cf2gyg {
             --border-bottom-width: 1px;
             --border-color: rgba(204, 0, 0, .4);
             --border-left-width: 1px;
@@ -3117,7 +3289,7 @@
             width: min-content
         }
 
-        .framer-ly5gO .framer-1epj3wb {
+        .framer-A4wnC .framer-1epj3wb {
             align-content: center;
             align-items: center;
             border-radius: 10px;
@@ -3138,8 +3310,8 @@
             --framer-link-text-color: #0099ff
         }
 
-        .framer-ly5gO[data-border=true]:after,
-        .framer-ly5gO [data-border=true]:after {
+        .framer-A4wnC[data-border=true]:after,
+        .framer-A4wnC [data-border=true]:after {
             content: "";
             border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0);
             border-color: var(--border-color, none);
@@ -3155,32 +3327,32 @@
         }
 
         @media (min-width: 810px) and (max-width: 1199.98px) {
-            .framer-ly5gO.framer-72rtr7 {
+            .framer-A4wnC.framer-72rtr7 {
                 width: 810px
             }
-            .framer-ly5gO .framer-fx5i05,
-            .framer-ly5gO .framer-q13uq5 {
+            .framer-A4wnC .framer-fx5i05,
+            .framer-A4wnC .framer-q13uq5 {
                 flex-direction: column;
                 height: min-content
             }
-            .framer-ly5gO .framer-21anfs,
-            .framer-ly5gO .framer-1h2bedn {
+            .framer-A4wnC .framer-21anfs,
+            .framer-A4wnC .framer-1h2bedn {
                 flex: none;
                 height: min-content;
                 width: 100%
             }
-            .framer-ly5gO .framer-nsude0 {
+            .framer-A4wnC .framer-nsude0 {
                 flex: none;
                 flex-direction: column;
                 height: min-content
             }
-            .framer-ly5gO .framer-10my308,
-            .framer-ly5gO .framer-tow32w {
+            .framer-A4wnC .framer-10my308,
+            .framer-A4wnC .framer-tow32w {
                 flex: none;
                 height: 164px;
                 width: 100%
             }
-            .framer-ly5gO .framer-1b3iwem {
+            .framer-A4wnC .framer-1b3iwem {
                 align-content: unset;
                 align-items: unset;
                 display: grid;
@@ -3189,36 +3361,36 @@
                 grid-template-rows: repeat(2, minmax(0, 1fr));
                 justify-content: center
             }
-            .framer-ly5gO .framer-1vdvve4,
-            .framer-ly5gO .framer-1xewmhm,
-            .framer-ly5gO .framer-1b2tcun {
+            .framer-A4wnC .framer-1vdvve4,
+            .framer-A4wnC .framer-1xewmhm,
+            .framer-A4wnC .framer-1b2tcun {
                 align-self: start;
                 flex: none;
                 justify-self: start;
                 width: 100%
             }
-            .framer-ly5gO .framer-1cp9ut9 {
+            .framer-A4wnC .framer-1cp9ut9 {
                 height: 382px;
                 width: 100%
             }
-            .framer-ly5gO .framer-nv2534,
-            .framer-ly5gO .framer-5ka7we {
+            .framer-A4wnC .framer-nv2534,
+            .framer-A4wnC .framer-5ka7we {
                 flex: none;
                 height: min-content
             }
-            .framer-ly5gO .framer-dpocpc {
+            .framer-A4wnC .framer-dpocpc {
                 height: min-content
             }
-            .framer-ly5gO .framer-1jp1poo {
+            .framer-A4wnC .framer-1jp1poo {
                 gap: 24px;
                 height: min-content;
                 justify-content: center
             }
-            .framer-ly5gO .framer-1p1bgi0 {
+            .framer-A4wnC .framer-1p1bgi0 {
                 align-self: stretch;
                 height: auto
             }
-            .framer-ly5gO .framer-18kb22c {
+            .framer-A4wnC .framer-18kb22c {
                 gap: 16px;
                 height: min-content;
                 justify-content: center;
@@ -3227,49 +3399,50 @@
         }
 
         @media (max-width: 809.98px) {
-            .framer-ly5gO.framer-72rtr7 {
+            .framer-A4wnC.framer-72rtr7 {
                 width: 390px
             }
-            .framer-ly5gO .framer-5lulpz {
+            .framer-A4wnC .framer-5lulpz {
                 padding: 0 0 0 12px;
                 width: min-content
             }
-            .framer-ly5gO .framer-170l14k {
+            .framer-A4wnC .framer-170l14k {
                 padding: 0 4px 12px
             }
-            .framer-ly5gO .framer-fx5i05,
-            .framer-ly5gO .framer-q13uq5 {
+            .framer-A4wnC .framer-fx5i05,
+            .framer-A4wnC .framer-q13uq5 {
                 flex-direction: column;
                 height: min-content
             }
-            .framer-ly5gO .framer-21anfs,
-            .framer-ly5gO .framer-1h2bedn {
+            .framer-A4wnC .framer-21anfs,
+            .framer-A4wnC .framer-1h2bedn {
                 flex: none;
                 height: min-content;
                 width: 100%
             }
-            .framer-ly5gO .framer-nsude0 {
+            .framer-A4wnC .framer-nsude0 {
                 flex: none;
                 flex-direction: column;
                 height: min-content
             }
-            .framer-ly5gO .framer-10my308,
-            .framer-ly5gO .framer-tow32w {
+            .framer-A4wnC .framer-10my308,
+            .framer-A4wnC .framer-tow32w {
                 flex: none;
                 height: 164px;
                 width: 100%
             }
-            .framer-ly5gO.framer-k2276c {
+            .framer-A4wnC.framer-k2276c {
+                padding: 32px 12px 12px;
                 top: 16px;
                 width: 98%
             }
-            .framer-ly5gO .framer-ojbzol {
+            .framer-A4wnC .framer-ojbzol {
                 order: 2
             }
-            .framer-ly5gO .framer-13icft6 {
+            .framer-A4wnC .framer-13icft6 {
                 order: 1
             }
-            .framer-ly5gO .framer-1b3iwem {
+            .framer-A4wnC .framer-1b3iwem {
                 align-content: unset;
                 align-items: unset;
                 display: grid;
@@ -3278,36 +3451,36 @@
                 grid-template-rows: repeat(2, minmax(0, 1fr));
                 justify-content: center
             }
-            .framer-ly5gO .framer-1vdvve4,
-            .framer-ly5gO .framer-1xewmhm,
-            .framer-ly5gO .framer-1b2tcun {
+            .framer-A4wnC .framer-1vdvve4,
+            .framer-A4wnC .framer-1xewmhm,
+            .framer-A4wnC .framer-1b2tcun {
                 align-self: start;
                 flex: none;
                 justify-self: start;
                 width: 100%
             }
-            .framer-ly5gO .framer-1cp9ut9 {
+            .framer-A4wnC .framer-1cp9ut9 {
                 height: 382px;
                 width: 100%
             }
-            .framer-ly5gO .framer-nv2534,
-            .framer-ly5gO .framer-5ka7we {
+            .framer-A4wnC .framer-nv2534,
+            .framer-A4wnC .framer-5ka7we {
                 flex: none;
                 height: min-content
             }
-            .framer-ly5gO .framer-dpocpc {
+            .framer-A4wnC .framer-dpocpc {
                 height: min-content
             }
-            .framer-ly5gO .framer-1jp1poo {
+            .framer-A4wnC .framer-1jp1poo {
                 gap: 16px;
                 height: min-content;
                 justify-content: center
             }
-            .framer-ly5gO .framer-1p1bgi0 {
+            .framer-A4wnC .framer-1p1bgi0 {
                 align-self: stretch;
                 height: auto
             }
-            .framer-ly5gO .framer-18kb22c {
+            .framer-A4wnC .framer-18kb22c {
                 gap: 0px;
                 height: min-content;
                 justify-content: center;
@@ -3503,14 +3676,14 @@
 
     <!-- End of bodyStart -->
     <div id="main" data-framer-hydrate-v2="{&quot;routeId&quot;:&quot;augiA20Il&quot;,&quot;localeId&quot;:&quot;default&quot;,&quot;breakpoints&quot;:[{&quot;hash&quot;:&quot;72rtr7&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 1200px)&quot;},{&quot;hash&quot;:&quot;1qgg6nl&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 810px) and (max-width: 1199.98px)&quot;},{&quot;hash&quot;:&quot;1sdmzhl&quot;,&quot;mediaQuery&quot;:&quot;(max-width: 809.98px)&quot;}]}"
-        data-framer-ssr-released-at="2025-08-21T15:22:45.112Z" data-framer-page-optimized-at="2025-08-26T10:14:23.990Z" data-framer-generated-page>
+        data-framer-ssr-released-at="2025-08-27T15:03:51.072Z" data-framer-page-optimized-at="2025-08-30T07:44:17.773Z" data-framer-generated-page>
         <!--$-->
         <style data-framer-html-style>
             html body {
                 background: rgb(255, 255, 255);
             }
         </style>
-        <div data-framer-root class="framer-ly5gO framer-RO3rA framer-72rtr7" style="min-height:100vh;width:auto">
+        <div data-framer-root class="framer-A4wnC framer-RO3rA framer-72rtr7" style="min-height:100vh;width:auto">
             <div class="framer-t04yvy" data-framer-name="Frame 3">
                 <div class="framer-13n1710" data-framer-name="Frame 29">
                     <div class="framer-5lulpz" data-framer-name="Frame 6">
@@ -4373,14 +4546,16 @@
     </script>
 
     <script data-framer-appear-animation="no-preference"></script>
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-CVTMSJ5R.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-HB3VUSOV.mjs">
     <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-HZL4YIMB.mjs">
     <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-A3IIQ6X3.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/esYMASswljUg-e_5GwlpQM9Ad5jmkcgwxkGDSviYtx8.J6OIPF3S.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/5nhaLhFrP9KywGbhid-Fs0EDUD3u_ZdIf4dcyB2w5WE.4R4NYD62.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-JYZYVMBT.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-RE3PWIQ7.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-KDVVCBR3.mjs">
     <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-42U43NKG.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-Y6DVCMOV.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/script_main.74I6BRFM.mjs">
-    <script type="module" async data-framer-bundle="main" fetchpriority="low" src="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/script_main.74I6BRFM.mjs"></script>
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/script_main.FB5Z4BVD.mjs">
+    <script type="module" async data-framer-bundle="main" fetchpriority="low" src="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/script_main.FB5Z4BVD.mjs"></script>
     <div id="svg-templates" style="position: absolute; overflow: hidden; bottom: 0; left: 0; width: 0; height: 0; z-index: 0; contain: strict" aria-hidden="true">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" id="svg-403962240_979">
 <path d="M11.6769 8.67348C11.8274 8.43697 12.1726 8.43697 12.3231 8.67348L12.7586 9.35767C13.2401 10.1143 13.8818 10.756 14.6384 11.2375L15.3226 11.6729C15.5591 11.8235 15.5591 12.1687 15.3226 12.3192L14.6384 12.7547C13.8818 13.2362 13.2401 13.8779 12.7586 14.6345L12.3231 15.3187C12.1726 15.5552 11.8274 15.5552 11.6769 15.3187L11.2414 14.6345C10.7599 13.8779 10.1182 13.2362 9.36157 12.7547L8.67738 12.3192C8.44087 12.1687 8.44087 11.8235 8.67738 11.6729L9.36157 11.2375C10.1182 10.756 10.7599 10.1143 11.2414 9.35767L11.6769 8.67348Z" stroke="#212121" stroke-width="1.25" stroke-linejoin="round"/>
