@@ -8,11 +8,11 @@
 
     <!-- End of headStart -->
     <meta name="viewport" content="width=device-width">
-    <meta name="generator" content="Framer 349ae9e">
+    <meta name="generator" content="Framer 751b085">
     <title>Markspy dashboard</title>
     <meta name="description" content="Darkweb entries">
-    <meta name="framer-search-index" content="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/searchIndex-qBh7aaf72TjC.json">
-    <meta name="framer-search-index-fallback" content="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/searchIndex-kqWtqcWS54NV.json">
+    <meta name="framer-search-index" content="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/searchIndex-GxJf9SweMT2l.json">
+    <meta name="framer-search-index-fallback" content="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/searchIndex-6GyHGW5xknDt.json">
     <link href="https://framerusercontent.com/sites/icons/default-favicon-light.v1.png" rel="icon" media="(prefers-color-scheme: light)">
     <link href="https://framerusercontent.com/sites/icons/default-favicon-dark.v1.png" rel="icon" media="(prefers-color-scheme: dark)">
     <link rel="apple-touch-icon" href="https://framerusercontent.com/sites/icons/default-touch-icon.v3.png">
@@ -48,13 +48,13 @@
             }
         }
     </style>
-    <style data-framer-css-ssr-minified data-framer-components="framer-lib-cursors-host framer-qUAr5 framer-lib-form-plain-text-input PropertyOverrides">
+    <style data-framer-css-ssr-minified data-framer-components="framer-lib-cursors-host framer-thrDB framer-lib-form-plain-text-input PropertyOverrides">
         html,
         body,
         #main {
+            box-sizing: border-box;
             margin: 0;
-            padding: 0;
-            box-sizing: border-box
+            padding: 0
         }
 
         :root {
@@ -83,8 +83,8 @@
         textarea,
         select,
         button {
-            font-size: 12px;
-            font-family: sans-serif
+            font-family: sans-serif;
+            font-size: 12px
         }
 
         @font-face {
@@ -92,8 +92,8 @@
             font-style: normal;
             font-weight: 600;
             font-display: swap;
-            src: url(https://fonts.gstatic.com/s/dmsans/v16/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJtRR232VGM.woff2) format("woff2");
-            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+            src: url(https://fonts.gstatic.com/s/dmsans/v16/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJtRR232VGM.woff2)format("woff2");
+            unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
         }
 
         @font-face {
@@ -101,8 +101,8 @@
             font-style: normal;
             font-weight: 600;
             font-display: swap;
-            src: url(https://fonts.gstatic.com/s/dmsans/v16/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJtRSW32.woff2) format("woff2");
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            src: url(https://fonts.gstatic.com/s/dmsans/v16/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJtRSW32.woff2)format("woff2");
+            unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
         }
 
         @font-face {
@@ -110,8 +110,8 @@
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url(https://fonts.gstatic.com/s/spacegrotesk/v21/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0.woff2) format("woff2");
-            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0.woff2)format("woff2");
+            unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB
         }
 
         @font-face {
@@ -119,8 +119,8 @@
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url(https://fonts.gstatic.com/s/spacegrotesk/v21/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0.woff2) format("woff2");
-            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0.woff2)format("woff2");
+            unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
         }
 
         @font-face {
@@ -128,8 +128,8 @@
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url(https://fonts.gstatic.com/s/spacegrotesk/v21/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2) format("woff2");
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2)format("woff2");
+            unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
         }
 
         @font-face {
@@ -137,8 +137,8 @@
             font-style: normal;
             font-weight: 500;
             font-display: swap;
-            src: url(https://fonts.gstatic.com/s/spacegrotesk/v21/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0.woff2) format("woff2");
-            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0.woff2)format("woff2");
+            unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB
         }
 
         @font-face {
@@ -146,8 +146,8 @@
             font-style: normal;
             font-weight: 500;
             font-display: swap;
-            src: url(https://fonts.gstatic.com/s/spacegrotesk/v21/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0.woff2) format("woff2");
-            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0.woff2)format("woff2");
+            unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
         }
 
         @font-face {
@@ -155,53 +155,161 @@
             font-style: normal;
             font-weight: 500;
             font-display: swap;
-            src: url(https://fonts.gstatic.com/s/spacegrotesk/v21/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2) format("woff2");
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2)format("woff2");
+            unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0.woff2)format("woff2");
+            unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0.woff2)format("woff2");
+            unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2)format("woff2");
+            unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
         }
 
         @font-face {
             font-family: Inter;
-            src: url(https://app.framerstatic.com/Inter-SemiBold.cyrillic-ext-C7KWUKA7.woff2);
+            src: url(https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2);
             font-display: swap;
             font-style: normal;
-            font-weight: 600;
-            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            font-weight: 400;
+            unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
         }
 
         @font-face {
             font-family: Inter;
-            src: url(https://app.framerstatic.com/Inter-SemiBold.cyrillic-JWV7SOZ6.woff2);
+            src: url(https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2);
             font-display: swap;
             font-style: normal;
-            font-weight: 600;
-            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            font-weight: 400;
+            unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116
         }
 
         @font-face {
             font-family: Inter;
-            src: url(https://app.framerstatic.com/Inter-SemiBold.greek-ext-FBKSFTSU.woff2);
+            src: url(https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2);
             font-display: swap;
             font-style: normal;
-            font-weight: 600;
-            unicode-range: U+1F00-1FFF
+            font-weight: 400;
+            unicode-range: U+1F??
         }
 
         @font-face {
             font-family: Inter;
-            src: url(https://app.framerstatic.com/Inter-SemiBold.greek-EQ3PSENU.woff2);
+            src: url(https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2);
             font-display: swap;
             font-style: normal;
-            font-weight: 600;
-            unicode-range: U+0370-03FF
+            font-weight: 400;
+            unicode-range: U+370-3FF
         }
 
         @font-face {
             font-family: Inter;
-            src: url(https://app.framerstatic.com/Inter-SemiBold.latin-ext-ULRSO3ZR.woff2);
+            src: url(https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 400;
+            unicode-range: U+100-24F, U+259, U+1E??, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 400;
+            unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 400;
+            unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/hyOgCu0Xnghbimh0pE8QTvtt2AU.woff2);
             font-display: swap;
             font-style: normal;
             font-weight: 600;
-            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/NeGmSOXrPBfEFIy5YZeHq17LEDA.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600;
+            unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/oYaAX5himiTPYuN8vLWnqBbfD2s.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600;
+            unicode-range: U+1F??
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/lEJLP4R0yuCaMCjSXYHtJw72M.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600;
+            unicode-range: U+370-3FF
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/cRJyLNuTJR5jbyKzGi33wU9cqIQ.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600;
+            unicode-range: U+100-24F, U+259, U+1E??, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600;
+            unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/A0Wcc7NgXMjUuFdquHDrIZpzZw0.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600;
+            unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB
         }
 
         @font-face {
@@ -210,16 +318,39 @@
             font-display: swap;
             font-style: normal;
             font-weight: 600;
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
         }
 
         @font-face {
-            font-family: Inter;
-            src: url(https://app.framerstatic.com/Inter-SemiBold.vietnamese-ESQNSEQ3.woff2);
+            font-family: Work Sans;
+            src: url(https://framerusercontent.com/third-party-assets/fontshare/wf/G463L6WWJWSX4R6VTEVFCTIXPE3AUDEF/V4JHHUSZMHBPK3DFEHLGTZVXVBHVLZ7P/ND3FIMQYFEQ2VM2WWNXCGGBFYRPR7FMH.woff2);
             font-display: swap;
             font-style: normal;
-            font-weight: 600;
-            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            font-weight: 400
+        }
+
+        @font-face {
+            font-family: Work Sans;
+            src: url(https://framerusercontent.com/third-party-assets/fontshare/wf/VA23FCGWQ2ZGKFEM75LQVBDIR5XCXJI3/V5QYJZB23L2PDOZTWQY5F3I5R2B3UGCD/XUL6BSI7XTIWXDHGTQPLNOWHZU5CTO77.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600
+        }
+
+        @font-face {
+            font-family: Work Sans;
+            src: url(https://framerusercontent.com/third-party-assets/fontshare/wf/MBOJEUZXMXZXHAW3KKWUFI6R7OIPIRYU/FBJ6H6I7LKZ2WGOVP25FDJOOUIMXMY2Z/THXRGVPNH45VMHCGWEEJATJ2RCOHTNBI.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 500
+        }
+
+        @font-face {
+            font-family: Work Sans;
+            src: url(https://framerusercontent.com/third-party-assets/fontshare/wf/L2RFI5NTELDLWWGFIXXRCJFRMUAU4BD6/P3JDB7I7L2IP3N3IUAWFHSV5PXQQYUXX/NYV4ZQMHP7NXL6VB4VFS7ZGRB4HZ263N.woff2);
+            font-display: swap;
+            font-style: italic;
+            font-weight: 500
         }
 
         @font-face {
@@ -231,46 +362,47 @@
         }
 
         @font-face {
-            font-family: Space Grotesk;
-            src: url(https://framerusercontent.com/third-party-assets/fontshare/wf/FOIKAJFLDFRPJ452NHBMMHCNDL4FUUBB/5AC3Y6FTG5H7IECKNZVIR7XI64O5YW5S/OB3CIWMGQGGYEGXRXPOVBXWAH4INE6T4.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 600
-        }
-
-        @font-face {
             font-family: DM Sans Placeholder;
-            src: local("Arial");
+            src: local(Arial);
             ascent-override: 94.35%;
             descent-override: 29.49%;
-            line-gap-override: 0%;
+            line-gap-override: 0.0%;
             size-adjust: 105.14%
         }
 
         @font-face {
             font-family: Space Grotesk Placeholder;
-            src: local("Arial");
+            src: local(Arial);
             ascent-override: 88.75%;
             descent-override: 26.34%;
-            line-gap-override: 0%;
+            line-gap-override: 0.0%;
             size-adjust: 110.87%
         }
 
         @font-face {
             font-family: Inter Placeholder;
-            src: local("Arial");
+            src: local(Arial);
             ascent-override: 89.79%;
             descent-override: 22.36%;
-            line-gap-override: 0%;
+            line-gap-override: 0.0%;
             size-adjust: 107.89%
         }
 
         @font-face {
+            font-family: Work Sans Placeholder;
+            src: local(Arial);
+            ascent-override: 82.98%;
+            descent-override: 21.68%;
+            line-gap-override: 0.0%;
+            size-adjust: 112.07%
+        }
+
+        @font-face {
             font-family: Space Grotesk Placeholder;
-            src: local("Arial");
+            src: local(Arial);
             ascent-override: 88.74%;
             descent-override: 26.33%;
-            line-gap-override: 0%;
+            line-gap-override: 0.0%;
             size-adjust: 110.88%
         }
 
@@ -278,7 +410,7 @@
             --framer-will-change-override: none
         }
 
-        @supports (background: -webkit-named-image(i)) and (not (grid-template-rows: subgrid)) {
+        @supports (background:-webkit-named-image(i)) and (not (grid-template-rows:subgrid)) {
             body {
                 --framer-will-change-override: transform
             }
@@ -340,23 +472,10 @@
             letter-spacing: var(--letter-spacing);
             font-size: var(--font-size);
             text-transform: var(--text-transform);
-            --text-decoration: var(--framer-text-decoration-style, solid) var(--framer-text-decoration, none) var(--framer-text-decoration-color, currentcolor) var(--framer-text-decoration-thickness, auto);
+            --text-decoration: var(--framer-text-decoration-style, solid)var(--framer-text-decoration, none)var(--framer-text-decoration-color, currentcolor)var(--framer-text-decoration-thickness, auto);
             --text-decoration-skip-ink: var(--framer-text-decoration-skip-ink);
             --text-underline-offset: var(--framer-text-decoration-offset);
-            line-height: var(--line-height)
-        }
-
-        [data-framer-component-type=Text] div div span,
-        [data-framer-component-type=Text] a div span,
-        [data-framer-component-type=Text] span span span,
-        [data-framer-component-type=Text] p span span,
-        [data-framer-component-type=Text] h1 span span,
-        [data-framer-component-type=Text] h2 span span,
-        [data-framer-component-type=Text] h3 span span,
-        [data-framer-component-type=Text] h4 span span,
-        [data-framer-component-type=Text] h5 span span,
-        [data-framer-component-type=Text] h6 span span,
-        [data-framer-component-type=Text] a {
+            line-height: var(--line-height);
             --font-family: var(--framer-font-family);
             --font-style: var(--framer-font-style);
             --font-weight: var(--framer-font-weight);
@@ -364,9 +483,6 @@
             --letter-spacing: var(--framer-letter-spacing);
             --font-size: var(--framer-font-size);
             --text-transform: var(--framer-text-transform);
-            --text-decoration: var(--framer-text-decoration-style, solid) var(--framer-text-decoration, none) var(--framer-text-decoration-color, currentcolor) var(--framer-text-decoration-thickness, auto);
-            --text-decoration-skip-ink: var(--framer-text-decoration-skip-ink);
-            --text-underline-offset: var(--framer-text-decoration-offset);
             --line-height: var(--framer-line-height)
         }
 
@@ -386,7 +502,7 @@
             --text-color: var(--framer-link-text-color, var(--framer-text-color));
             --font-size: var(--framer-link-font-size, var(--framer-font-size));
             --text-transform: var(--framer-link-text-transform, var(--framer-text-transform));
-            --text-decoration: var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, solid)) var(--framer-link-text-decoration, var(--framer-text-decoration, none)) var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, currentcolor)) var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, auto));
+            --text-decoration: var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, solid))var(--framer-link-text-decoration, var(--framer-text-decoration, none))var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, currentcolor))var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, auto));
             --text-decoration-skip-ink: var(--framer-link-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink));
             --text-underline-offset: var(--framer-link-text-decoration-offset, var(--framer-text-decoration-offset))
         }
@@ -407,7 +523,7 @@
             --text-color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-text-color)));
             --font-size: var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size)));
             --text-transform: var(--framer-link-hover-text-transform, var(--framer-link-text-transform, var(--framer-text-transform)));
-            --text-decoration: var(--framer-link-hover-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, solid))) var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))) var(--framer-link-hover-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, currentcolor))) var(--framer-link-hover-text-decoration-thickness, var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, auto)));
+            --text-decoration: var(--framer-link-hover-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, solid)))var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))var(--framer-link-hover-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, currentcolor)))var(--framer-link-hover-text-decoration-thickness, var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, auto)));
             --text-decoration-skip-ink: var(--framer-link-hover-text-decoration-skip-ink, var(--framer-link-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink)));
             --text-underline-offset: var(--framer-link-hover-text-decoration-offset, var(--framer-link-text-decoration-offset, var(--framer-text-decoration-offset)))
         }
@@ -428,7 +544,7 @@
             --text-color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color)));
             --font-size: var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size)));
             --text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform)));
-            --text-decoration: var(--framer-link-current-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, solid))) var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))) var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, currentcolor))) var(--framer-link-current-text-decoration-thickness, var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, auto)));
+            --text-decoration: var(--framer-link-current-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, solid)))var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, currentcolor)))var(--framer-link-current-text-decoration-thickness, var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, auto)));
             --text-decoration-skip-ink: var(--framer-link-current-text-decoration-skip-ink, var(--framer-link-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink)));
             --text-underline-offset: var(--framer-link-current-text-decoration-offset, var(--framer-link-text-decoration-offset, var(--framer-text-decoration-offset)))
         }
@@ -465,7 +581,7 @@
             font-style: var(--framer-blockquote-font-style, var(--framer-font-style, normal));
             font-weight: var(--framer-blockquote-font-weight, var(--framer-font-weight, 400));
             color: var(--framer-blockquote-text-color, var(--framer-text-color, #000));
-            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1));
+            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px))*var(--framer-font-size-scale, 1));
             letter-spacing: var(--framer-blockquote-letter-spacing, var(--framer-letter-spacing, 0));
             text-transform: var(--framer-blockquote-text-transform, var(--framer-text-transform, none));
             text-decoration-line: var(--framer-blockquote-text-decoration, var(--framer-text-decoration, initial));
@@ -502,7 +618,7 @@
             padding: var(--framer-blockquote-text-background-padding, var(--framer-text-background-padding, initial))
         }
 
-        @supports not (color: color(display-p3 1 1 1)) {
+        @supports not (color:color(display-p3 1 1 1)) {
             p.framer-text,
             div.framer-text,
             h1.framer-text,
@@ -572,12 +688,12 @@
         }
 
         .framer-text[data-text-fill] {
-            display: inline-block;
-            background-clip: text;
-            -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            padding: max(0em, calc(calc(1.3em - var(--framer-blockquote-line-height, var(--framer-line-height, 1.3em))) / 2));
-            margin: min(0em, calc(calc(1.3em - var(--framer-blockquote-line-height, var(--framer-line-height, 1.3em))) / -2))
+            padding: max(0em, calc(calc(1.3em - var(--framer-blockquote-line-height, var(--framer-line-height, 1.3em)))/2));
+            margin: min(0em, calc(calc(1.3em - var(--framer-blockquote-line-height, var(--framer-line-height, 1.3em)))/-2));
+            -webkit-background-clip: text;
+            background-clip: text;
+            display: inline-block
         }
 
         code.framer-text,
@@ -586,12 +702,12 @@
             font-style: var(--framer-blockquote-font-style, var(--framer-code-font-style, var(--framer-font-style, normal)));
             font-weight: var(--framer-blockquote-font-weight, var(--framer-code-font-weight, var(--framer-font-weight, 400)));
             color: var(--framer-blockquote-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)));
-            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1));
+            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px))*var(--framer-font-size-scale, 1));
             letter-spacing: var(--framer-blockquote-letter-spacing, var(--framer-letter-spacing, 0));
             line-height: var(--framer-blockquote-line-height, var(--framer-line-height, 1.2em))
         }
 
-        @supports not (color: color(display-p3 1 1 1)) {
+        @supports not (color:color(display-p3 1 1 1)) {
             code.framer-text,
             code.framer-text span.framer-text:not([data-text-fill]) {
                 color: var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))
@@ -599,11 +715,11 @@
         }
 
         blockquote.framer-text {
+            unicode-bidi: initial;
             margin-block-start: initial;
             margin-block-end: initial;
             margin-inline-start: initial;
-            margin-inline-end: initial;
-            unicode-bidi: initial
+            margin-inline-end: initial
         }
 
         a.framer-text,
@@ -614,7 +730,7 @@
             font-style: var(--framer-blockquote-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
             font-weight: var(--framer-blockquote-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
             color: var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
-            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1));
+            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px))*var(--framer-font-size-scale, 1));
             text-transform: var(--framer-blockquote-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
             cursor: var(--framer-custom-cursors, pointer);
             background-color: var(--framer-link-text-background-color, initial);
@@ -632,7 +748,7 @@
             text-underline-offset: var(--framer-blockquote-text-decoration-offset, var(--framer-link-text-decoration-offset, var(--framer-text-decoration-offset, initial)))
         }
 
-        @supports not (color: color(display-p3 1 1 1)) {
+        @supports not (color:color(display-p3 1 1 1)) {
             a.framer-text,
             a.framer-text span.framer-text:not([data-text-fill]),
             span.framer-text[data-nested-link],
@@ -650,10 +766,10 @@
             font-style: var(--framer-blockquote-font-style, var(--framer-code-font-style, var(--framer-font-style, normal)));
             font-weight: var(--framer-blockquote-font-weight, var(--framer-code-font-weight, var(--framer-font-weight, 400)));
             color: var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000))));
-            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1))
+            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px))*var(--framer-font-size-scale, 1))
         }
 
-        @supports not (color: color(display-p3 1 1 1)) {
+        @supports not (color:color(display-p3 1 1 1)) {
             code.framer-text a.framer-text,
             code.framer-text a.framer-text span.framer-text:not([data-text-fill]),
             code.framer-text span.framer-text[data-nested-link],
@@ -670,7 +786,7 @@
             font-style: var(--framer-link-hover-font-style, var(--framer-blockquote-font-style, var(--framer-link-font-style, var(--framer-font-style, normal))));
             font-weight: var(--framer-link-hover-font-weight, var(--framer-blockquote-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400))));
             color: var(--framer-link-hover-text-color, var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
-            font-size: calc(var(--framer-link-hover-font-size, var(--framer-blockquote-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1));
+            font-size: calc(var(--framer-link-hover-font-size, var(--framer-blockquote-font-size, var(--framer-font-size, 16px)))*var(--framer-font-size-scale, 1));
             text-transform: var(--framer-link-hover-text-transform, var(--framer-blockquote-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
             background-color: var(--framer-link-hover-text-background-color, var(--framer-link-text-background-color, var(--framer-text-background-color, initial)));
             border-radius: var(--framer-link-hover-text-background-radius, var(--framer-link-text-background-radius, var(--framer-text-background-radius, initial)));
@@ -687,7 +803,7 @@
             text-underline-offset: var(--framer-link-hover-text-decoration-offset, var(--framer-blockquote-text-decoration-offset, var(--framer-link-text-decoration-offset, var(--framer-text-decoration-offset, initial))))
         }
 
-        @supports not (color: color(display-p3 1 1 1)) {
+        @supports not (color:color(display-p3 1 1 1)) {
             a.framer-text:hover,
             a.framer-text:hover span.framer-text:not([data-text-fill]),
             span.framer-text[data-nested-link]:hover,
@@ -705,10 +821,10 @@
             font-style: var(--framer-blockquote-font-style, var(--framer-code-font-style, var(--framer-font-style, normal)));
             font-weight: var(--framer-blockquote-font-weight, var(--framer-code-font-weight, var(--framer-font-weight, 400)));
             color: var(--framer-link-hover-text-color, var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)))));
-            font-size: calc(var(--framer-link-hover-font-size, var(--framer-blockquote-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))) * var(--framer-font-size-scale, 1))
+            font-size: calc(var(--framer-link-hover-font-size, var(--framer-blockquote-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))))*var(--framer-font-size-scale, 1))
         }
 
-        @supports not (color: color(display-p3 1 1 1)) {
+        @supports not (color:color(display-p3 1 1 1)) {
             code.framer-text a.framer-text:hover,
             code.framer-text a.framer-text:hover span.framer-text:not([data-text-fill]),
             code.framer-text span.framer-text[data-nested-link]:hover,
@@ -725,7 +841,7 @@
             font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
             font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
             color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
-            font-size: calc(var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1));
+            font-size: calc(var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))*var(--framer-font-size-scale, 1));
             text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
             background-color: var(--framer-link-current-text-background-color, var(--framer-link-text-background-color, initial));
             border-radius: var(--framer-link-current-text-background-radius, var(--framer-link-text-background-radius, initial));
@@ -742,7 +858,7 @@
             text-underline-offset: var(--framer-link-current-text-decoration-offset, var(--framer-link-text-decoration-offset, var(--framer-text-decoration-offset, initial)))
         }
 
-        @supports not (color: color(display-p3 1 1 1)) {
+        @supports not (color:color(display-p3 1 1 1)) {
             a.framer-text[data-framer-page-link-current],
             a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]),
             span.framer-text[data-framer-page-link-current],
@@ -760,10 +876,10 @@
             font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
             font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
             color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000))));
-            font-size: calc(var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1))
+            font-size: calc(var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))*var(--framer-font-size-scale, 1))
         }
 
-        @supports not (color: color(display-p3 1 1 1)) {
+        @supports not (color:color(display-p3 1 1 1)) {
             code.framer-text a.framer-text[data-framer-page-link-current],
             code.framer-text a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]),
             code.framer-text span.framer-text[data-framer-page-link-current],
@@ -781,7 +897,7 @@
             font-style: var(--framer-link-hover-font-style, var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal))));
             font-weight: var(--framer-link-hover-font-weight, var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400))));
             color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
-            font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))) * var(--framer-font-size-scale, 1));
+            font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))))*var(--framer-font-size-scale, 1));
             text-transform: var(--framer-link-hover-text-transform, var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
             background-color: var(--framer-link-hover-text-background-color, var(--framer-link-current-text-background-color, var(--framer-link-text-background-color, initial)));
             border-radius: var(--framer-link-hover-text-background-radius, var(--framer-link-current-text-background-radius, var(--framer-link-text-background-radius, initial)));
@@ -798,7 +914,7 @@
             text-underline-offset: var(--framer-link-hover-text-decoration-offset, var(--framer-link-current-text-decoration-offset, var(--framer-link-text-decoration-offset, var(--framer-text-decoration-offset, initial))))
         }
 
-        @supports not (color: color(display-p3 1 1 1)) {
+        @supports not (color:color(display-p3 1 1 1)) {
             a.framer-text[data-framer-page-link-current]:hover,
             a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]),
             span.framer-text[data-framer-page-link-current]:hover,
@@ -816,13 +932,13 @@
             font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
             font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
             color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)))));
-            font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))) * var(--framer-font-size-scale, 1));
+            font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))))*var(--framer-font-size-scale, 1));
             background-color: var(--framer-link-hover-text-background-color, var(--framer-link-current-text-background-color, var(--framer-link-text-background-color, var(--framer-text-background-color, initial))));
             border-radius: var(--framer-link-hover-text-background-radius, var(--framer-link-current-text-background-radius, var(--framer-link-text-background-radius, var(--framer-text-background-radius, initial))));
             padding: var(--framer-link-hover-text-background-padding, var(--framer-link-current-text-background-padding, var(--framer-link-text-background-padding, var(--framer-text-background-padding, initial))))
         }
 
-        @supports not (color: color(display-p3 1 1 1)) {
+        @supports not (color:color(display-p3 1 1 1)) {
             code.framer-text a.framer-text[data-framer-page-link-current]:hover,
             code.framer-text a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]),
             code.framer-text span.framer-text[data-framer-page-link-current]:hover,
@@ -833,9 +949,9 @@
         }
 
         .framer-image.framer-text {
-            display: block;
             max-width: 100%;
-            height: auto
+            height: auto;
+            display: block
         }
 
         .text-styles-preset-reset.framer-text {
@@ -876,10 +992,10 @@
         }
 
         ol.framer-text>li.framer-text:before {
+            content: counter(list-item, var(--list-style-type))".";
+            font-variant-numeric: tabular-nums;
             position: absolute;
-            left: 0;
-            content: counter(list-item, var(--list-style-type)) ".";
-            font-variant-numeric: tabular-nums
+            left: 0
         }
 
         ol.framer-text>li.framer-text:nth-last-child(n+100),
@@ -908,9 +1024,9 @@
         }
 
         ul.framer-text>li.framer-text:before {
+            content: "•";
             position: absolute;
-            left: 0;
-            content: "\2022"
+            left: 0
         }
 
         .framer-table-wrapper {
@@ -928,34 +1044,28 @@
 
         td.framer-text,
         th.framer-text {
-            min-width: 16ch;
-            vertical-align: top
+            vertical-align: top;
+            min-width: 16ch
         }
 
         .framer-text-module[style*=aspect-ratio]>:first-child {
             width: 100%
         }
 
-        @supports not (aspect-ratio: 1) {
+        @supports not (aspect-ratio:1) {
             .framer-text-module[style*=aspect-ratio] {
                 position: relative
             }
-        }
-
-        @supports not (aspect-ratio: 1) {
             .framer-text-module[style*=aspect-ratio]:before {
                 content: "";
-                display: block;
-                padding-bottom: calc(100% / calc(var(--aspect-ratio)))
+                padding-bottom: calc(100%/calc(var(--aspect-ratio)));
+                display: block
             }
-        }
-
-        @supports not (aspect-ratio: 1) {
             .framer-text-module[style*=aspect-ratio]>:first-child {
+                height: 100%;
                 position: absolute;
                 top: 0;
-                left: 0;
-                height: 100%
+                left: 0
             }
         }
 
@@ -1029,10 +1139,10 @@
         }
 
         [data-framer-component-type=DeprecatedRichText] span[data-text-fill] {
-            display: inline-block;
-            background-clip: text;
+            -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent
+            background-clip: text;
+            display: inline-block
         }
 
         [data-framer-component-type=DeprecatedRichText] a,
@@ -1088,40 +1198,40 @@
         }
 
         [data-framer-component-type=DeprecatedRichText] .framer-image {
-            display: block;
             max-width: 100%;
-            height: auto
+            height: auto;
+            display: block
         }
 
         [data-framer-component-type=DeprecatedRichText] ul,
         [data-framer-component-type=DeprecatedRichText] ol {
-            display: table;
             width: 100%;
+            margin: 0;
             padding-left: 0;
-            margin: 0
+            display: table
         }
 
         [data-framer-component-type=DeprecatedRichText] li {
-            display: table-row;
             counter-increment: list-item;
-            list-style: none
+            list-style: none;
+            display: table-row
         }
 
         [data-framer-component-type=DeprecatedRichText] ol>li:before {
-            display: table-cell;
-            width: 2.25ch;
             box-sizing: border-box;
+            content: counter(list-item)".";
+            white-space: nowrap;
+            width: 2.25ch;
             padding-right: .75ch;
-            content: counter(list-item) ".";
-            white-space: nowrap
+            display: table-cell
         }
 
         [data-framer-component-type=DeprecatedRichText] ul>li:before {
-            display: table-cell;
-            width: 2.25ch;
             box-sizing: border-box;
+            content: "•";
+            width: 2.25ch;
             padding-right: .75ch;
-            content: "\2022"
+            display: table-cell
         }
 
         :not([data-framer-generated])>[data-framer-stack-content-wrapper]>*,
@@ -1133,10 +1243,10 @@
 
         .flexbox-gap-not-supported [data-framer-legacy-stack-gap-enabled=true]>*,
         [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false] {
-            margin-top: calc(var(--stack-gap-y) / 2);
-            margin-bottom: calc(var(--stack-gap-y) / 2);
-            margin-right: calc(var(--stack-gap-x) / 2);
-            margin-left: calc(var(--stack-gap-x) / 2)
+            margin-top: calc(var(--stack-gap-y)/2);
+            margin-bottom: calc(var(--stack-gap-y)/2);
+            margin-right: calc(var(--stack-gap-x)/2);
+            margin-left: calc(var(--stack-gap-x)/2)
         }
 
         [data-framer-stack-content-wrapper][data-framer-stack-gap-enabled=true] {
@@ -1149,20 +1259,20 @@
             column-gap: unset
         }
 
-        .flexbox-gap-not-supported [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true]>*:first-child,
-        [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:first-child,
-        .flexbox-gap-not-supported [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true]>*:last-child,
-        [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:last-child {
+        .flexbox-gap-not-supported [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true]>:first-child,
+        [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>:first-child,
+        .flexbox-gap-not-supported [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true]>:last-child,
+        [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>:last-child {
             margin-top: 0;
             margin-left: 0
         }
 
-        .flexbox-gap-not-supported [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true]>*:last-child,
-        [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:last-child,
-        .flexbox-gap-not-supported [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true]>*:first-child,
-        [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:first-child {
-            margin-right: 0;
-            margin-bottom: 0
+        .flexbox-gap-not-supported [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true]>:last-child,
+        [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>:last-child,
+        .flexbox-gap-not-supported [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true]>:first-child,
+        [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>:first-child {
+            margin-bottom: 0;
+            margin-right: 0
         }
 
         NavigationContainer [data-framer-component-type=NavigationContainer]>*,
@@ -1187,18 +1297,15 @@
         }
 
         [data-framer-component-type=NativeScroll].direction-both {
-            overflow-x: auto;
-            overflow-y: auto
+            overflow: auto
         }
 
         [data-framer-component-type=NativeScroll].direction-vertical {
-            overflow-x: hidden;
-            overflow-y: auto
+            overflow: hidden auto
         }
 
         [data-framer-component-type=NativeScroll].direction-horizontal {
-            overflow-x: auto;
-            overflow-y: hidden
+            overflow: auto hidden
         }
 
         [data-framer-component-type=NativeScroll].direction-vertical>* {
@@ -1254,25 +1361,25 @@
         }
 
         [data-reset=button] {
+            background: 0 0;
             border-width: 0;
-            padding: 0;
-            background: none
+            padding: 0
         }
 
         [data-hide-scrollbars=true]::-webkit-scrollbar {
-            width: 0px;
-            height: 0px
+            width: 0;
+            height: 0
         }
 
         [data-hide-scrollbars=true]::-webkit-scrollbar-thumb {
-            background: transparent
+            background: 0 0
         }
 
         [data-hide-scrollbars=true] {
             scrollbar-width: none
         }
 
-        @supports (not (overflow: clip)) {
+        @supports not (overflow:clip) {
             :root {
                 --overflow-clip-fallback: hidden
             }
@@ -1288,308 +1395,270 @@
             pointer-events: none !important
         }
 
-        @supports (aspect-ratio: 1) {
+        @supports (aspect-ratio:1) {
             body {
                 --framer-aspect-ratio-supported: auto
             }
         }
 
-        .framer-qUAr5.framer-lux5qc,
-        .framer-qUAr5 .framer-lux5qc {
+        .framer-thrDB.framer-lux5qc,
+        .framer-thrDB .framer-lux5qc {
             display: block
         }
 
-        .framer-qUAr5.framer-72rtr7 {
-            align-content: center;
+        .framer-thrDB.framer-72rtr7 {
+            height: min-content;
+            overflow: var(--overflow-clip-fallback, clip);
+            background-color: #fff;
+            flex-flow: column;
+            place-content: center flex-start;
             align-items: center;
-            background-color: #fff;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
             gap: 10px;
-            height: min-content;
-            justify-content: flex-start;
-            overflow: var(--overflow-clip-fallback, clip);
+            width: 1200px;
             padding: 0;
-            position: relative;
-            width: 1200px
+            display: flex;
+            position: relative
         }
 
-        .framer-qUAr5 .framer-w06fjv {
-            background-color: #000c;
-            flex: none;
-            inset: 0;
-            overflow: var(--overflow-clip-fallback, clip);
-            position: fixed;
-            z-index: 5
-        }
-
-        .framer-qUAr5 .framer-1exykcf-container {
-            flex: none;
-            height: auto;
-            left: 50%;
-            max-width: 440px;
-            position: absolute;
-            top: 44px;
-            transform: translate(-50%);
-            width: 98%
-        }
-
-        .framer-qUAr5 .framer-t04yvy {
-            align-content: flex-start;
-            align-items: flex-start;
+        .framer-thrDB .framer-t04yvy {
             background-color: #fff;
-            display: flex;
+            flex-flow: column;
             flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 0px;
+            place-content: flex-start center;
+            align-items: flex-start;
+            gap: 0;
+            width: 100%;
             height: 100vh;
-            justify-content: center;
-            overflow: visible;
             padding: 0;
+            display: flex;
             position: relative;
-            width: 100%
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-13n1710 {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
+        .framer-thrDB .framer-13n1710 {
+            z-index: 1;
+            flex-flow: row;
             flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
+            place-content: flex-start space-between;
+            align-items: flex-start;
+            width: 100%;
             height: min-content;
-            justify-content: space-between;
-            overflow: hidden;
             padding: 0;
+            display: flex;
             position: sticky;
             top: 0;
-            width: 100%;
-            z-index: 1
+            overflow: hidden
         }
 
-        .framer-qUAr5 .framer-5lulpz {
-            align-content: center;
-            align-items: center;
-            display: flex;
+        .framer-thrDB .framer-5lulpz {
+            flex-flow: column;
             flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
+            place-content: center;
+            align-items: center;
             gap: 10px;
+            width: 250px;
             height: 64px;
-            justify-content: center;
-            overflow: hidden;
             padding: 12px;
-            position: relative;
-            width: 250px
-        }
-
-        .framer-qUAr5 .framer-76ni2w,
-        .framer-qUAr5 .framer-zxnn2r,
-        .framer-qUAr5 .framer-132zju2,
-        .framer-qUAr5 .framer-1xfhaey,
-        .framer-qUAr5 .framer-159aptn,
-        .framer-qUAr5 .framer-vb16v6,
-        .framer-qUAr5 .framer-1s24hcv,
-        .framer-qUAr5 .framer-y86c20,
-        .framer-qUAr5 .framer-r8e7ne,
-        .framer-qUAr5 .framer-5quaq6,
-        .framer-qUAr5 .framer-asg6pc,
-        .framer-qUAr5 .framer-195qm8h,
-        .framer-qUAr5 .framer-dn9n1z,
-        .framer-qUAr5 .framer-cjbg7o,
-        .framer-qUAr5 .framer-120shf2,
-        .framer-qUAr5 .framer-143i4e5 {
-            align-content: center;
-            align-items: center;
             display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 8px;
-            height: min-content;
-            justify-content: center;
-            overflow: visible;
-            padding: 0;
             position: relative;
-            width: min-content
+            overflow: hidden
         }
 
-        .framer-qUAr5 .framer-1flsmf2,
-        .framer-qUAr5 .framer-1eilzfp,
-        .framer-qUAr5 .framer-1jargq6,
-        .framer-qUAr5 .framer-frxdy,
-        .framer-qUAr5 .framer-knsj9n,
-        .framer-qUAr5 .framer-1u5624q,
-        .framer-qUAr5 .framer-2nm8fe {
+        .framer-thrDB .framer-76ni2w,
+        .framer-thrDB .framer-zxnn2r,
+        .framer-thrDB .framer-132zju2,
+        .framer-thrDB .framer-1xfhaey,
+        .framer-thrDB .framer-159aptn,
+        .framer-thrDB .framer-vb16v6,
+        .framer-thrDB .framer-1s24hcv,
+        .framer-thrDB .framer-y86c20,
+        .framer-thrDB .framer-r8e7ne,
+        .framer-thrDB .framer-5quaq6,
+        .framer-thrDB .framer-asg6pc,
+        .framer-thrDB .framer-195qm8h,
+        .framer-thrDB .framer-dn9n1z,
+        .framer-thrDB .framer-cjbg7o,
+        .framer-thrDB .framer-120shf2,
+        .framer-thrDB .framer-143i4e5 {
+            flex-flow: row;
             flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 8px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-1flsmf2,
+        .framer-thrDB .framer-1eilzfp,
+        .framer-thrDB .framer-1jargq6,
+        .framer-thrDB .framer-frxdy,
+        .framer-thrDB .framer-knsj9n,
+        .framer-thrDB .framer-1u5624q,
+        .framer-thrDB .framer-2nm8fe {
+            flex: none;
+            width: 24px;
             height: 24px;
-            position: relative;
-            width: 24px
+            position: relative
         }
 
-        .framer-qUAr5 .framer-ur7119,
-        .framer-qUAr5 .framer-3xcdo3,
-        .framer-qUAr5 .framer-m0kkuv,
-        .framer-qUAr5 .framer-2nx2ax,
-        .framer-qUAr5 .framer-19ieffi,
-        .framer-qUAr5 .framer-12pisea,
-        .framer-qUAr5 .framer-1056clz,
-        .framer-qUAr5 .framer-1dwwiie,
-        .framer-qUAr5 .framer-i80qjk,
-        .framer-qUAr5 .framer-1hts7lk,
-        .framer-qUAr5 .framer-1kqkgge,
-        .framer-qUAr5 .framer-13wc0ne,
-        .framer-qUAr5 .framer-7id5x7,
-        .framer-qUAr5 .framer-batc6e,
-        .framer-qUAr5 .framer-1w16ccz,
-        .framer-qUAr5 .framer-1ioqh86,
-        .framer-qUAr5 .framer-7iejwi,
-        .framer-qUAr5 .framer-pod3ep,
-        .framer-qUAr5 .framer-1darbce,
-        .framer-qUAr5 .framer-oouqmu,
-        .framer-qUAr5 .framer-1s74dgo,
-        .framer-qUAr5 .framer-1jw7hz8,
-        .framer-qUAr5 .framer-mfxjwl,
-        .framer-qUAr5 .framer-1ukd4r8,
-        .framer-qUAr5 .framer-no7jo5,
-        .framer-qUAr5 .framer-1s7dxx0,
-        .framer-qUAr5 .framer-8yzffi,
-        .framer-qUAr5 .framer-bnwo0l,
-        .framer-qUAr5 .framer-1pljiin,
-        .framer-qUAr5 .framer-1trncb9,
-        .framer-qUAr5 .framer-zny4xv,
-        .framer-qUAr5 .framer-15ujg0x,
-        .framer-qUAr5 .framer-1lzm9vv,
-        .framer-qUAr5 .framer-t3ktcf,
-        .framer-qUAr5 .framer-1wmyhtz,
-        .framer-qUAr5 .framer-nw6ti3,
-        .framer-qUAr5 .framer-1m6oy24,
-        .framer-qUAr5 .framer-1cm9z0x,
-        .framer-qUAr5 .framer-lrpfmo,
-        .framer-qUAr5 .framer-13fz0eh,
-        .framer-qUAr5 .framer-14i7502,
-        .framer-qUAr5 .framer-197zmtc,
-        .framer-qUAr5 .framer-12tkb2q,
-        .framer-qUAr5 .framer-1xlinjf,
-        .framer-qUAr5 .framer-ieus3q,
-        .framer-qUAr5 .framer-1usc92o,
-        .framer-qUAr5 .framer-hrigjf,
-        .framer-qUAr5 .framer-1hwupwo,
-        .framer-qUAr5 .framer-fwvb1k,
-        .framer-qUAr5 .framer-1v6g6th,
-        .framer-qUAr5 .framer-1n4om8z,
-        .framer-qUAr5 .framer-1ng4n3m,
-        .framer-qUAr5 .framer-q85qy0,
-        .framer-qUAr5 .framer-1mo4wu5,
-        .framer-qUAr5 .framer-oxk27r,
-        .framer-qUAr5 .framer-q39geu,
-        .framer-qUAr5 .framer-1szi3a,
-        .framer-qUAr5 .framer-1p4yhym,
-        .framer-qUAr5 .framer-ur9l6o,
-        .framer-qUAr5 .framer-innraa,
-        .framer-qUAr5 .framer-74rmwr,
-        .framer-qUAr5 .framer-zxstbr,
-        .framer-qUAr5 .framer-1yd2sho,
-        .framer-qUAr5 .framer-xf9yzf,
-        .framer-qUAr5 .framer-1j5jbwl,
-        .framer-qUAr5 .framer-oq8tyg,
-        .framer-qUAr5 .framer-egy8az,
-        .framer-qUAr5 .framer-1s9tot6,
-        .framer-qUAr5 .framer-1epypm,
-        .framer-qUAr5 .framer-lf6zoc,
-        .framer-qUAr5 .framer-562gyw,
-        .framer-qUAr5 .framer-10e06qv,
-        .framer-qUAr5 .framer-nm7b5v,
-        .framer-qUAr5 .framer-1jpv1g6,
-        .framer-qUAr5 .framer-dzct4x,
-        .framer-qUAr5 .framer-3kjj8k,
-        .framer-qUAr5 .framer-25jtvs,
-        .framer-qUAr5 .framer-1ym2mx4,
-        .framer-qUAr5 .framer-11ydcd9,
-        .framer-qUAr5 .framer-118mw4q,
-        .framer-qUAr5 .framer-1j65rb5,
-        .framer-qUAr5 .framer-13gx3js,
-        .framer-qUAr5 .framer-16uw82j,
-        .framer-qUAr5 .framer-v7ill1,
-        .framer-qUAr5 .framer-ho3pv9 {
+        .framer-thrDB .framer-ur7119,
+        .framer-thrDB .framer-3xcdo3,
+        .framer-thrDB .framer-m0kkuv,
+        .framer-thrDB .framer-2nx2ax,
+        .framer-thrDB .framer-19ieffi,
+        .framer-thrDB .framer-12pisea,
+        .framer-thrDB .framer-1056clz,
+        .framer-thrDB .framer-1dwwiie,
+        .framer-thrDB .framer-i80qjk,
+        .framer-thrDB .framer-1hts7lk,
+        .framer-thrDB .framer-1kqkgge,
+        .framer-thrDB .framer-13wc0ne,
+        .framer-thrDB .framer-7id5x7,
+        .framer-thrDB .framer-batc6e,
+        .framer-thrDB .framer-1w16ccz,
+        .framer-thrDB .framer-1ioqh86,
+        .framer-thrDB .framer-7iejwi,
+        .framer-thrDB .framer-pod3ep,
+        .framer-thrDB .framer-1darbce,
+        .framer-thrDB .framer-oouqmu,
+        .framer-thrDB .framer-1s74dgo,
+        .framer-thrDB .framer-1jw7hz8,
+        .framer-thrDB .framer-mfxjwl,
+        .framer-thrDB .framer-1ukd4r8,
+        .framer-thrDB .framer-no7jo5,
+        .framer-thrDB .framer-1s7dxx0,
+        .framer-thrDB .framer-8yzffi,
+        .framer-thrDB .framer-bnwo0l,
+        .framer-thrDB .framer-1pljiin,
+        .framer-thrDB .framer-1trncb9,
+        .framer-thrDB .framer-zny4xv,
+        .framer-thrDB .framer-15ujg0x,
+        .framer-thrDB .framer-1lzm9vv,
+        .framer-thrDB .framer-t3ktcf,
+        .framer-thrDB .framer-1wmyhtz,
+        .framer-thrDB .framer-nw6ti3,
+        .framer-thrDB .framer-1m6oy24,
+        .framer-thrDB .framer-1cm9z0x,
+        .framer-thrDB .framer-lrpfmo,
+        .framer-thrDB .framer-13fz0eh,
+        .framer-thrDB .framer-14i7502,
+        .framer-thrDB .framer-197zmtc,
+        .framer-thrDB .framer-12tkb2q,
+        .framer-thrDB .framer-1xlinjf,
+        .framer-thrDB .framer-ieus3q,
+        .framer-thrDB .framer-1usc92o,
+        .framer-thrDB .framer-hrigjf,
+        .framer-thrDB .framer-1hwupwo,
+        .framer-thrDB .framer-fwvb1k,
+        .framer-thrDB .framer-1v6g6th,
+        .framer-thrDB .framer-1n4om8z,
+        .framer-thrDB .framer-1ng4n3m,
+        .framer-thrDB .framer-q85qy0,
+        .framer-thrDB .framer-1mo4wu5,
+        .framer-thrDB .framer-oxk27r,
+        .framer-thrDB .framer-q39geu,
+        .framer-thrDB .framer-1szi3a,
+        .framer-thrDB .framer-1p4yhym,
+        .framer-thrDB .framer-ur9l6o,
+        .framer-thrDB .framer-innraa,
+        .framer-thrDB .framer-74rmwr,
+        .framer-thrDB .framer-zxstbr,
+        .framer-thrDB .framer-1yd2sho,
+        .framer-thrDB .framer-xf9yzf,
+        .framer-thrDB .framer-1j5jbwl,
+        .framer-thrDB .framer-oq8tyg,
+        .framer-thrDB .framer-egy8az,
+        .framer-thrDB .framer-1s9tot6,
+        .framer-thrDB .framer-1epypm,
+        .framer-thrDB .framer-lf6zoc,
+        .framer-thrDB .framer-562gyw,
+        .framer-thrDB .framer-10e06qv,
+        .framer-thrDB .framer-nm7b5v,
+        .framer-thrDB .framer-1jpv1g6,
+        .framer-thrDB .framer-dzct4x,
+        .framer-thrDB .framer-3kjj8k,
+        .framer-thrDB .framer-25jtvs,
+        .framer-thrDB .framer-1ym2mx4,
+        .framer-thrDB .framer-11ydcd9,
+        .framer-thrDB .framer-118mw4q,
+        .framer-thrDB .framer-1j65rb5,
+        .framer-thrDB .framer-13gx3js,
+        .framer-thrDB .framer-16uw82j,
+        .framer-thrDB .framer-v7ill1,
+        .framer-thrDB .framer-ho3pv9 {
             --framer-paragraph-spacing: 0px;
-            flex: none;
-            height: auto;
-            position: relative;
             white-space: pre;
-            width: auto
+            flex: none;
+            width: auto;
+            height: auto;
+            position: relative
         }
 
-        .framer-qUAr5 .framer-167y1ym {
-            align-content: flex-end;
+        .framer-thrDB .framer-167y1ym {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-end center;
             align-items: flex-end;
-            display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
             gap: 10px;
+            width: min-content;
             height: 64px;
-            justify-content: center;
-            overflow: hidden;
             padding: 12px;
+            display: flex;
             position: relative;
-            width: min-content
+            overflow: hidden
         }
 
-        .framer-qUAr5 .framer-1601psb {
-            align-content: center;
+        .framer-thrDB .framer-1601psb {
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center;
             align-items: center;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: row;
-            flex-wrap: nowrap;
             gap: 8px;
+            width: min-content;
             height: 1px;
-            justify-content: center;
-            overflow: visible;
             padding: 0;
+            display: flex;
             position: relative;
-            width: min-content
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-6zz41o {
-            align-content: center;
-            align-items: center;
-            display: flex;
+        .framer-thrDB .framer-6zz41o {
+            flex-flow: row;
             flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
+            place-content: center flex-end;
+            align-items: center;
             gap: 8px;
+            width: min-content;
             height: min-content;
-            justify-content: flex-end;
-            overflow: hidden;
             padding: 0;
-            position: relative;
-            width: min-content
-        }
-
-        .framer-qUAr5 .framer-dwoedl {
-            align-content: center;
-            align-items: center;
             display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 10px;
-            height: min-content;
-            justify-content: center;
-            overflow: var(--overflow-clip-fallback, clip);
-            padding: 0;
             position: relative;
-            width: min-content
+            overflow: hidden
         }
 
-        .framer-qUAr5 .framer-1yjuoxr {
+        .framer-thrDB .framer-dwoedl {
+            height: min-content;
+            overflow: var(--overflow-clip-fallback, clip);
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: min-content;
+            padding: 0;
+            display: flex;
+            position: relative
+        }
+
+        .framer-thrDB .framer-1yjuoxr {
             --framer-input-background: #f2f2f2;
             --framer-input-border-bottom-width: 1px;
-            --framer-input-border-color: rgba(0, 0, 0, .05);
+            --framer-input-border-color: #0000000d;
             --framer-input-border-left-width: 1px;
             --framer-input-border-radius-bottom-left: 100px;
             --framer-input-border-radius-bottom-right: 100px;
@@ -1598,1734 +1667,1596 @@
             --framer-input-border-right-width: 1px;
             --framer-input-border-style: solid;
             --framer-input-border-top-width: 1px;
-            --framer-input-focused-background: rgba(0, 0, 0, 0);
+            --framer-input-focused-background: #0000;
             --framer-input-focused-border-color: #474747;
             --framer-input-focused-border-style: solid;
             --framer-input-focused-border-width: 1px;
-            --framer-input-focused-transition: all .2s cubic-bezier(0, 0, 1, 1) 0s;
-            --framer-input-font-color: #999999;
+            --framer-input-focused-transition: all .2s cubic-bezier(0, 0, 1, 1)0s;
+            --framer-input-font-color: #999;
             --framer-input-font-family: "Space Grotesk";
             --framer-input-font-letter-spacing: 0em;
             --framer-input-font-line-height: 1.2em;
             --framer-input-font-size: 14px;
             --framer-input-font-weight: 400;
-            --framer-input-icon-color: #999999;
+            --framer-input-icon-color: #999;
             --framer-input-padding: 12px;
-            --framer-input-placeholder-color: #999999;
+            --framer-input-placeholder-color: #999;
             flex: none;
+            width: 200px;
             height: 32px;
-            position: relative;
-            width: 200px
+            position: relative
         }
 
-        .framer-qUAr5 .framer-1ei6hyu {
+        .framer-thrDB .framer-1ei6hyu {
+            z-index: 1;
             flex: none;
+            width: 16px;
             height: 16px;
             position: absolute;
-            right: 12px;
-            top: calc(50.00000000000002% - 16px / 2);
-            width: 16px;
-            z-index: 1
+            top: calc(50% - 8px);
+            right: 12px
         }
 
-        .framer-qUAr5 .framer-bzhelw {
-            --border-bottom-width: .7272726893424988px;
-            --border-color: rgba(33, 33, 33, .1);
-            --border-left-width: .7272726893424988px;
-            --border-right-width: .7272726893424988px;
+        .framer-thrDB .framer-bzhelw {
+            --border-bottom-width: .727273px;
+            --border-color: #2121211a;
+            --border-left-width: .727273px;
+            --border-right-width: .727273px;
             --border-style: solid;
-            --border-top-width: .7272726893424988px;
-            align-content: center;
-            align-items: center;
+            --border-top-width: .727273px;
+            will-change: var(--framer-will-change-override, transform);
             border-radius: 727px;
-            display: flex;
+            flex-flow: row;
             flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 7.272727012634277px;
-            height: 32px;
-            justify-content: flex-start;
-            overflow: hidden;
-            padding: 2.909090757369995px 8.727272033691406px;
-            position: relative;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 7.27273px;
             width: min-content;
-            will-change: var(--framer-will-change-override, transform)
-        }
-
-        .framer-qUAr5 .framer-1bwnjtz {
-            flex: none;
-            height: 16px;
-            position: relative;
-            width: 16px
-        }
-
-        .framer-qUAr5 .framer-dmvdxu,
-        .framer-qUAr5 .framer-1v5sp5s {
-            flex: none;
             height: 32px;
+            padding: 2.90909px 8.72727px;
+            display: flex;
             position: relative;
-            width: 32px
+            overflow: hidden
         }
 
-        .framer-qUAr5 .framer-7k14i,
-        .framer-qUAr5 .framer-lbh6dn,
-        .framer-qUAr5 .framer-ywuhrl {
-            align-content: center;
-            align-items: center;
-            display: flex;
+        .framer-thrDB .framer-1bwnjtz {
             flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
+            width: 16px;
+            height: 16px;
+            position: relative
+        }
+
+        .framer-thrDB .framer-dmvdxu,
+        .framer-thrDB .framer-1v5sp5s {
+            flex: none;
+            width: 32px;
+            height: 32px;
+            position: relative
+        }
+
+        .framer-thrDB .framer-7k14i,
+        .framer-thrDB .framer-lbh6dn,
+        .framer-thrDB .framer-ywuhrl {
+            flex-flow: row;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
             gap: 10px;
+            width: min-content;
             height: min-content;
-            justify-content: flex-start;
-            overflow: visible;
             padding: 0;
+            display: flex;
             position: relative;
-            width: min-content
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-19plmyb {
-            align-content: flex-start;
+        .framer-thrDB .framer-19plmyb {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start center;
             align-items: flex-start;
-            display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 0px;
+            gap: 0;
+            width: min-content;
             height: min-content;
-            justify-content: center;
-            overflow: visible;
             padding: 0;
+            display: flex;
             position: relative;
-            width: min-content
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-1ddranq,
-        .framer-qUAr5 .framer-2tvcz8 {
-            align-content: center;
-            align-items: center;
-            display: flex;
+        .framer-thrDB .framer-1ddranq,
+        .framer-thrDB .framer-2tvcz8 {
+            flex-flow: row;
             flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
+            place-content: center flex-start;
+            align-items: center;
             gap: 4px;
+            width: min-content;
             height: min-content;
-            justify-content: flex-start;
-            overflow: visible;
             padding: 0;
+            display: flex;
             position: relative;
-            width: min-content
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-1p38xoc,
-        .framer-qUAr5 .framer-h4x2r,
-        .framer-qUAr5 .framer-1g24uo7,
-        .framer-qUAr5 .framer-yexjv2 {
+        .framer-thrDB .framer-1p38xoc,
+        .framer-thrDB .framer-h4x2r,
+        .framer-thrDB .framer-1g24uo7,
+        .framer-thrDB .framer-yexjv2 {
             flex: none;
+            width: 4px;
             height: 14px;
-            position: relative;
-            width: 4px
+            position: relative
         }
 
-        .framer-qUAr5 .framer-1ufordd {
-            align-content: center;
+        .framer-thrDB .framer-1ufordd {
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center flex-start;
             align-items: center;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 0px;
+            gap: 0;
+            width: 100%;
             height: 1px;
-            justify-content: flex-start;
-            overflow: visible;
             padding: 0;
+            display: flex;
             position: relative;
-            width: 100%
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-2qzs81 {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
+        .framer-thrDB .framer-2qzs81 {
+            flex-flow: column;
             flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
+            place-content: flex-start space-between;
+            align-items: flex-start;
+            width: 250px;
             height: 100%;
-            justify-content: space-between;
-            overflow: visible;
             padding: 12px;
-            position: relative;
-            width: 250px
-        }
-
-        .framer-qUAr5 .framer-we0yhg,
-        .framer-qUAr5 .framer-1nwha69 {
-            align-content: flex-start;
-            align-items: flex-start;
             display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 0px;
-            height: min-content;
-            justify-content: flex-start;
-            overflow: visible;
-            padding: 0;
             position: relative;
-            width: 100%
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-t9fxy7 {
-            align-content: flex-start;
+        .framer-thrDB .framer-we0yhg,
+        .framer-thrDB .framer-1nwha69 {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start;
             align-items: flex-start;
+            gap: 0;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-t9fxy7 {
+            will-change: var(--framer-will-change-override, transform);
             background-color: #21212108;
             border-radius: 10px;
-            display: flex;
+            flex-flow: column;
             flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
+            place-content: flex-start center;
+            align-items: flex-start;
             gap: 12px;
-            height: min-content;
-            justify-content: center;
-            overflow: hidden;
-            padding: 12px;
-            position: relative;
             width: 100%;
-            will-change: var(--framer-will-change-override, transform)
+            height: min-content;
+            padding: 12px;
+            display: flex;
+            position: relative;
+            overflow: hidden
         }
 
-        .framer-qUAr5 .framer-9qg1ua,
-        .framer-qUAr5 .framer-1bhcs6j,
-        .framer-qUAr5 .framer-14tqqph,
-        .framer-qUAr5 .framer-434eau,
-        .framer-qUAr5 .framer-1hgovt6 {
+        .framer-thrDB .framer-9qg1ua,
+        .framer-thrDB .framer-1bhcs6j,
+        .framer-thrDB .framer-14tqqph,
+        .framer-thrDB .framer-434eau,
+        .framer-thrDB .framer-1hgovt6 {
             flex: none;
+            width: 20px;
             height: 20px;
-            position: relative;
-            width: 20px
+            position: relative
         }
 
-        .framer-qUAr5 .framer-1mfwms4 {
-            align-content: flex-start;
-            align-items: flex-start;
+        .framer-thrDB .framer-1mfwms4 {
+            will-change: var(--framer-will-change-override, transform);
             border-radius: 10px;
-            display: flex;
+            flex-flow: column;
             flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
+            place-content: flex-start center;
+            align-items: flex-start;
             gap: 12px;
-            height: min-content;
-            justify-content: center;
-            overflow: hidden;
-            padding: 12px;
-            position: relative;
             width: 100%;
-            will-change: var(--framer-will-change-override, transform)
-        }
-
-        .framer-qUAr5 .framer-ax3ty8,
-        .framer-qUAr5 .framer-1lh7b4a,
-        .framer-qUAr5 .framer-1ttbw9a,
-        .framer-qUAr5 .framer-1ouxd45 {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 12px;
             height: min-content;
-            justify-content: center;
-            overflow: hidden;
             padding: 12px;
-            position: relative;
-            width: 100%
-        }
-
-        .framer-qUAr5 .framer-b9g5ui,
-        .framer-qUAr5 .framer-8xf6c2 {
-            flex: none;
-            height: 19px;
-            position: relative;
-            width: 19px
-        }
-
-        .framer-qUAr5 .framer-170l14k {
-            align-content: flex-start;
-            align-items: flex-start;
             display: flex;
-            flex: 1 0 0px;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 10px;
-            height: 100%;
-            justify-content: flex-start;
-            overflow: auto;
-            padding: 0 12px 12px 0;
             position: relative;
-            width: 1px
+            overflow: hidden
         }
 
-        .framer-qUAr5 .framer-xsdog9 {
-            align-content: flex-start;
-            align-items: flex-start;
-            background-color: #fff;
-            display: flex;
+        .framer-thrDB .framer-ax3ty8,
+        .framer-thrDB .framer-1lh7b4a,
+        .framer-thrDB .framer-1ttbw9a,
+        .framer-thrDB .framer-1ouxd45 {
+            flex-flow: column;
             flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
+            place-content: flex-start center;
+            align-items: flex-start;
             gap: 12px;
+            width: 100%;
             height: min-content;
-            justify-content: flex-start;
-            overflow: hidden;
-            padding: 0;
+            padding: 12px;
+            display: flex;
             position: relative;
-            width: 100%
+            overflow: hidden
         }
 
-        .framer-qUAr5 .framer-fx5i05,
-        .framer-qUAr5 .framer-q13uq5 {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
+        .framer-thrDB .framer-b9g5ui,
+        .framer-thrDB .framer-8xf6c2 {
             flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 12px;
-            height: 382px;
-            justify-content: flex-start;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: 100%
+            width: 19px;
+            height: 19px;
+            position: relative
         }
 
-        .framer-qUAr5 .framer-21anfs {
-            align-content: flex-start;
+        .framer-thrDB .framer-170l14k {
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: flex-start;
             align-items: flex-start;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 12px;
+            gap: 10px;
+            width: 1px;
             height: 100%;
-            justify-content: center;
-            overflow: visible;
-            padding: 0;
+            padding: 0 12px 12px 0;
+            display: flex;
             position: relative;
-            width: 1px
+            overflow: auto
         }
 
-        .framer-qUAr5 .framer-nsude0 {
+        .framer-thrDB .framer-xsdog9 {
+            background-color: #fff;
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 12px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }
+
+        .framer-thrDB .framer-fx5i05,
+        .framer-thrDB .framer-q13uq5 {
+            flex-flow: row;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 12px;
+            width: 100%;
+            height: 382px;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-21anfs {
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: flex-start center;
+            align-items: flex-start;
+            gap: 12px;
+            width: 1px;
+            height: 100%;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-nsude0 {
             --border-bottom-width: 1px;
-            --border-color: rgba(33, 33, 33, .05);
+            --border-color: #2121210d;
             --border-left-width: 1px;
             --border-right-width: 1px;
             --border-style: solid;
             --border-top-width: 1px;
-            align-content: center;
-            align-items: center;
+            will-change: var(--framer-will-change-override, transform);
             border-radius: 10px;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: row;
-            flex-wrap: nowrap;
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center;
+            align-items: center;
             gap: 10px;
-            height: 1px;
-            justify-content: center;
-            overflow: hidden;
-            padding: 12px;
-            position: relative;
             width: 100%;
-            will-change: var(--framer-will-change-override, transform)
+            height: 1px;
+            padding: 12px;
+            display: flex;
+            position: relative;
+            overflow: hidden
         }
 
-        .framer-qUAr5 .framer-10my308 {
-            align-content: center;
+        .framer-thrDB .framer-10my308 {
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: center flex-end;
             align-items: center;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: column;
-            flex-wrap: nowrap;
             gap: 20px;
+            width: 1px;
             height: 100%;
-            justify-content: flex-end;
-            overflow: visible;
             padding: 0;
+            display: flex;
             position: relative;
-            width: 1px
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-b2kqy1 {
-            align-content: center;
-            align-items: center;
-            display: flex;
+        .framer-thrDB .framer-b2kqy1 {
+            flex-flow: column;
             flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
+            place-content: center flex-start;
+            align-items: center;
             gap: 4px;
+            width: min-content;
             height: min-content;
-            justify-content: flex-start;
-            overflow: visible;
             padding: 0;
+            display: flex;
             position: relative;
-            width: min-content
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-187ttu9 {
-            align-content: flex-start;
+        .framer-thrDB .framer-187ttu9 {
+            flex-flow: row;
+            flex: none;
+            place-content: flex-start;
             align-items: flex-start;
-            display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
             gap: 8px;
+            width: 100%;
             height: min-content;
-            justify-content: flex-start;
-            overflow: visible;
             padding: 0;
-            position: relative;
-            width: 100%
-        }
-
-        .framer-qUAr5 .framer-j4miv2 {
-            align-content: center;
-            align-items: center;
-            background: linear-gradient(90deg, #050505, #6b6b6b, #050505);
-            border-radius: 10px;
-            cursor: pointer;
             display: flex;
-            flex: 1 0 0px;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 10px;
-            height: 35px;
-            justify-content: center;
-            overflow: visible;
-            padding: 0;
             position: relative;
-            width: 1px
+            overflow: visible
         }
 
-        .framer-qUAr5.framer-bhqphd,
-        .framer-qUAr5.framer-ugbber,
-        .framer-qUAr5.framer-zavlxn {
-            background-color: #000c;
-            inset: 0;
-            position: fixed;
+        .framer-thrDB .framer-j4miv2 {
+            cursor: pointer;
+            background: linear-gradient(90deg, #050505 0%, #6b6b6b 50%, #050505 100%);
+            border-radius: 10px;
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 1px;
+            height: 35px;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB.framer-bhqphd,
+        .framer-thrDB.framer-ugbber,
+        .framer-thrDB.framer-zavlxn {
             user-select: none;
-            z-index: 1
+            z-index: 1;
+            background-color: #000c;
+            position: fixed;
+            inset: 0
         }
 
-        .framer-qUAr5.framer-3gr7sd-container {
+        .framer-thrDB.framer-wx8lua-container {
+            will-change: var(--framer-will-change-effect-override, transform);
+            z-index: 1;
             flex: none;
+            width: 98%;
+            max-width: 450px;
             height: auto;
-            left: 50%;
-            max-width: 440px;
             position: fixed;
             top: 44px;
-            transform: translate(-50%);
-            width: 95%;
-            z-index: 1
+            left: 50%;
+            transform: translate(-50%)
         }
 
-        .framer-qUAr5 .framer-16tnwek {
+        .framer-thrDB .framer-16tnwek {
             --border-bottom-width: 1px;
-            --border-color: rgba(0, 0, 0, .05);
+            --border-color: #0000000d;
             --border-left-width: 1px;
             --border-right-width: 1px;
             --border-style: solid;
             --border-top-width: 1px;
-            align-content: center;
-            align-items: center;
+            cursor: pointer;
             background-color: #f2f2f2;
             border-radius: 10px;
-            cursor: pointer;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: row;
-            flex-wrap: nowrap;
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center;
+            align-items: center;
             gap: 10px;
+            width: 1px;
             height: 35px;
-            justify-content: center;
-            overflow: visible;
             padding: 0;
+            display: flex;
             position: relative;
-            width: 1px
+            overflow: visible
         }
 
-        .framer-qUAr5.framer-158ho7b,
-        .framer-qUAr5.framer-1d0x7a3 {
+        .framer-thrDB.framer-158ho7b,
+        .framer-thrDB.framer-1d0x7a3 {
             --border-bottom-width: 1.5px;
-            --border-color: rgba(255, 255, 255, .2);
+            --border-color: #fff3;
             --border-left-width: 1.5px;
             --border-right-width: 1.5px;
             --border-style: solid;
             --border-top-width: 1.5px;
-            -webkit-backdrop-filter: blur(10px);
-            align-content: center;
-            align-items: center;
             backdrop-filter: blur(10px);
+            will-change: var(--framer-will-change-effect-override, transform);
+            z-index: 4;
             background-color: #fff;
             border-radius: 12px;
-            box-shadow: 1px 3px 12px #0000001a;
-            display: flex;
+            flex-flow: column;
             flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
+            place-content: center;
+            align-items: center;
             gap: 20px;
-            height: min-content;
-            justify-content: center;
-            left: 50%;
+            width: 90%;
             max-width: 500px;
-            overflow: hidden;
+            height: min-content;
             padding: 12px;
+            display: flex;
             position: fixed;
             top: 80px;
+            left: 50%;
+            overflow: hidden;
             transform: translate(-50%);
-            width: 90%;
-            will-change: var(--framer-will-change-effect-override, transform);
-            z-index: 4
+            box-shadow: 1px 3px 12px #0000001a
         }
 
-        .framer-qUAr5 .framer-bu7uae,
-        .framer-qUAr5 .framer-o0wgh1 {
-            align-content: center;
-            align-items: center;
+        .framer-thrDB .framer-bu7uae,
+        .framer-thrDB .framer-o0wgh1 {
+            will-change: var(--framer-will-change-override, transform);
             background-color: #ff00001a;
             border-radius: 73px;
-            display: flex;
+            flex-flow: column;
             flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
+            place-content: center;
+            align-items: center;
             gap: 2.93px;
-            height: 44px;
-            justify-content: center;
-            overflow: hidden;
-            padding: 5.87px;
-            position: relative;
             width: 44px;
-            will-change: var(--framer-will-change-override, transform)
-        }
-
-        .framer-qUAr5 .framer-9tq6lg-container,
-        .framer-qUAr5 .framer-1lussy9-container {
-            flex: none;
-            height: 21px;
-            position: relative;
-            width: 21px
-        }
-
-        .framer-qUAr5 .framer-d90ck5,
-        .framer-qUAr5 .framer-5yutoy {
-            align-content: center;
-            align-items: center;
+            height: 44px;
+            padding: 5.87px;
             display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 4px;
-            height: min-content;
-            justify-content: center;
-            overflow: hidden;
-            padding: 0;
             position: relative;
-            width: 100%
+            overflow: hidden
         }
 
-        .framer-qUAr5 .framer-1jpgezj,
-        .framer-qUAr5 .framer-16dhpvh,
-        .framer-qUAr5 .framer-1bwb7us,
-        .framer-qUAr5 .framer-11wm5f8 {
-            --framer-link-text-color: #0099ff;
-            --framer-link-text-decoration: underline;
+        .framer-thrDB .framer-9tq6lg-container,
+        .framer-thrDB .framer-1lussy9-container {
             flex: none;
-            height: auto;
-            position: relative;
-            white-space: pre-wrap;
-            width: 100%;
-            word-break: break-word;
-            word-wrap: break-word
+            width: 21px;
+            height: 21px;
+            position: relative
         }
 
-        .framer-qUAr5 .framer-f28d4a,
-        .framer-qUAr5 .framer-1cmyynj {
-            align-content: center;
+        .framer-thrDB .framer-d90ck5,
+        .framer-thrDB .framer-5yutoy {
+            flex-flow: column;
+            flex: none;
+            place-content: center;
             align-items: center;
+            gap: 4px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }
+
+        .framer-thrDB .framer-1jpgezj,
+        .framer-thrDB .framer-16dhpvh,
+        .framer-thrDB .framer-1bwb7us,
+        .framer-thrDB .framer-11wm5f8 {
+            --framer-link-text-color: #09f;
+            --framer-link-text-decoration: underline;
+            white-space: pre-wrap;
+            word-break: break-word;
+            word-wrap: break-word;
+            flex: none;
+            width: 100%;
+            height: auto;
+            position: relative
+        }
+
+        .framer-thrDB .framer-f28d4a,
+        .framer-thrDB .framer-1cmyynj {
             background-color: #0a0a0a;
             border-radius: 10px;
-            display: flex;
+            flex-flow: row;
             flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
+            place-content: center;
+            align-items: center;
             gap: 10px;
+            width: 100%;
             height: 40px;
-            justify-content: center;
-            overflow: visible;
             padding: 0;
+            display: flex;
             position: relative;
-            width: 100%
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-1iutgzn,
-        .framer-qUAr5 .framer-c8vifh {
-            flex: none;
-            height: auto;
-            position: relative;
+        .framer-thrDB .framer-1iutgzn,
+        .framer-thrDB .framer-c8vifh {
             white-space: pre-wrap;
-            width: 100%;
             word-break: break-word;
-            word-wrap: break-word
+            word-wrap: break-word;
+            flex: none;
+            width: 100%;
+            height: auto;
+            position: relative
         }
 
-        .framer-qUAr5 .framer-tow32w {
+        .framer-thrDB .framer-tow32w {
             --border-bottom-width: 1px;
-            --border-color: rgba(33, 33, 33, .05);
+            --border-color: #2121210d;
             --border-left-width: 1px;
             --border-right-width: 1px;
             --border-style: solid;
             --border-top-width: 1px;
-            align-content: flex-start;
-            align-items: flex-start;
             border-radius: 10px;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: column;
-            flex-wrap: nowrap;
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: flex-start flex-end;
+            align-items: flex-start;
             gap: 6px;
-            height: 100%;
-            justify-content: flex-end;
-            overflow: visible;
-            padding: 8px;
-            position: relative;
-            width: 1px
-        }
-
-        .framer-qUAr5 .framer-1jgi59i {
-            align-content: center;
-            align-items: center;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 8px;
-            height: 1px;
-            justify-content: center;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: 100%
-        }
-
-        .framer-qUAr5 .framer-1kk8quo,
-        .framer-qUAr5 .framer-yn7j0v {
-            align-content: center;
-            align-items: center;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            height: 1px;
-            justify-content: space-between;
-            opacity: 0;
-            overflow: visible;
-            padding: 16px 0;
-            position: relative;
-            width: 100%
-        }
-
-        .framer-qUAr5 .framer-126pu6m,
-        .framer-qUAr5 .framer-wxi0ur,
-        .framer-qUAr5 .framer-1axk30g,
-        .framer-qUAr5 .framer-ccmwo7,
-        .framer-qUAr5 .framer-542ee4 {
-            align-content: center;
-            align-items: center;
-            display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 8px;
-            height: min-content;
-            justify-content: flex-start;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: min-content
-        }
-
-        .framer-qUAr5 .framer-1uvly9e,
-        .framer-qUAr5 .framer-ojbzol,
-        .framer-qUAr5 .framer-lbkc7v,
-        .framer-qUAr5 .framer-4i1rs0,
-        .framer-qUAr5 .framer-wwqcdq,
-        .framer-qUAr5 .framer-1g263yr {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 2px;
-            height: min-content;
-            justify-content: center;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: min-content
-        }
-
-        .framer-qUAr5 .framer-10q5vi6,
-        .framer-qUAr5 .framer-r5mlgo {
-            align-content: flex-end;
-            align-items: flex-end;
-            display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 4px;
-            height: min-content;
-            justify-content: flex-start;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: min-content
-        }
-
-        .framer-qUAr5 .framer-13icft6 {
-            aspect-ratio: 1 / 1;
-            flex: none;
-            height: var(--framer-aspect-ratio-supported, 24px);
-            position: relative;
-            width: 24px
-        }
-
-        .framer-qUAr5 .framer-17sl6ql {
-            --border-bottom-width: 1px;
-            --border-color: rgba(33, 33, 33, .05);
-            --border-left-width: 1px;
-            --border-right-width: 1px;
-            --border-style: solid;
-            --border-top-width: 1px;
-            align-content: flex-start;
-            align-items: flex-start;
-            border-radius: 10px;
-            display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 10px;
-            height: min-content;
-            justify-content: flex-start;
-            overflow: hidden;
-            padding: 12px;
-            position: relative;
-            width: 100%;
-            will-change: var(--framer-will-change-override, transform)
-        }
-
-        .framer-qUAr5 .framer-1b3iwem {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 12px;
-            height: min-content;
-            justify-content: flex-start;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: 100%
-        }
-
-        .framer-qUAr5 .framer-1vdvve4,
-        .framer-qUAr5 .framer-1xewmhm,
-        .framer-qUAr5 .framer-1b2tcun {
-            --border-bottom-width: 1px;
-            --border-color: rgba(0, 0, 0, .05);
-            --border-left-width: 1px;
-            --border-right-width: 1px;
-            --border-style: solid;
-            --border-top-width: 1px;
-            align-content: flex-start;
-            align-items: flex-start;
-            border-radius: 10px;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 16px;
-            height: min-content;
-            justify-content: flex-start;
-            overflow: hidden;
-            padding: 12px;
-            position: relative;
             width: 1px;
-            will-change: var(--framer-will-change-override, transform)
-        }
-
-        .framer-qUAr5 .framer-1li4mp2,
-        .framer-qUAr5 .framer-170u7sw,
-        .framer-qUAr5 .framer-1t1ronr,
-        .framer-qUAr5 .framer-1f56d5a,
-        .framer-qUAr5 .framer-74jvd,
-        .framer-qUAr5 .framer-1baegun {
-            align-content: center;
-            align-items: center;
+            height: 100%;
+            padding: 8px;
             display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            height: min-content;
-            justify-content: space-between;
-            overflow: visible;
-            padding: 0;
             position: relative;
-            width: 100%
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-zasthn,
-        .framer-qUAr5 .framer-1ua9y1t,
-        .framer-qUAr5 .framer-hkv6p3,
-        .framer-qUAr5 .framer-1fo82dc {
-            flex: none;
-            height: 28px;
-            position: relative;
-            width: 28px
-        }
-
-        .framer-qUAr5 .framer-1iqd381 {
-            flex: none;
-            height: 30px;
-            position: relative;
-            width: 31px
-        }
-
-        .framer-qUAr5 .framer-7t05c6,
-        .framer-qUAr5 .framer-1tx6ybp,
-        .framer-qUAr5 .framer-1vcy8u4 {
-            --framer-paragraph-spacing: 0px;
-            flex: none;
-            height: auto;
-            position: relative;
-            white-space: pre-wrap;
-            width: 173px;
-            word-break: break-word;
-            word-wrap: break-word
-        }
-
-        .framer-qUAr5 .framer-hrshea,
-        .framer-qUAr5 .framer-rw7i0h,
-        .framer-qUAr5 .framer-h2254n,
-        .framer-qUAr5 .framer-1syods0 {
-            align-content: center;
+        .framer-thrDB .framer-1jgi59i {
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: center;
             align-items: center;
-            display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 12px;
-            height: min-content;
-            justify-content: center;
-            overflow: visible;
+            gap: 8px;
+            width: 100%;
+            height: 1px;
             padding: 0;
+            display: flex;
             position: relative;
-            width: min-content
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-5pjeb6,
-        .framer-qUAr5 .framer-1n9eaxn {
+        .framer-thrDB .framer-1kk8quo,
+        .framer-thrDB .framer-yn7j0v {
+            opacity: 0;
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center space-between;
+            align-items: center;
+            width: 100%;
+            height: 1px;
+            padding: 16px 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-126pu6m,
+        .framer-thrDB .framer-wxi0ur,
+        .framer-thrDB .framer-1axk30g,
+        .framer-thrDB .framer-ccmwo7,
+        .framer-thrDB .framer-542ee4 {
+            flex-flow: row;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 8px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-1uvly9e,
+        .framer-thrDB .framer-ojbzol,
+        .framer-thrDB .framer-lbkc7v,
+        .framer-thrDB .framer-4i1rs0,
+        .framer-thrDB .framer-wwqcdq,
+        .framer-thrDB .framer-1g263yr {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start center;
+            align-items: flex-start;
+            gap: 2px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-10q5vi6,
+        .framer-thrDB .framer-r5mlgo {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-end flex-start;
+            align-items: flex-end;
+            gap: 4px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-13icft6 {
+            aspect-ratio: 1;
+            height: var(--framer-aspect-ratio-supported, 24px);
+            flex: none;
+            width: 24px;
+            position: relative
+        }
+
+        .framer-thrDB .framer-17sl6ql {
             --border-bottom-width: 1px;
-            --border-color: rgba(68, 204, 0, .4);
+            --border-color: #2121210d;
             --border-left-width: 1px;
             --border-right-width: 1px;
             --border-style: solid;
             --border-top-width: 1px;
-            align-content: center;
+            will-change: var(--framer-will-change-override, transform);
+            border-radius: 10px;
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 10px;
+            width: 100%;
+            height: min-content;
+            padding: 12px;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }
+
+        .framer-thrDB .framer-1b3iwem {
+            flex-flow: row;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 12px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-1vdvve4,
+        .framer-thrDB .framer-1xewmhm,
+        .framer-thrDB .framer-1b2tcun {
+            --border-bottom-width: 1px;
+            --border-color: #0000000d;
+            --border-left-width: 1px;
+            --border-right-width: 1px;
+            --border-style: solid;
+            --border-top-width: 1px;
+            will-change: var(--framer-will-change-override, transform);
+            border-radius: 10px;
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 16px;
+            width: 1px;
+            height: min-content;
+            padding: 12px;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }
+
+        .framer-thrDB .framer-1li4mp2,
+        .framer-thrDB .framer-170u7sw,
+        .framer-thrDB .framer-1t1ronr,
+        .framer-thrDB .framer-1f56d5a,
+        .framer-thrDB .framer-74jvd,
+        .framer-thrDB .framer-1baegun {
+            flex-flow: row;
+            flex: none;
+            place-content: center space-between;
             align-items: center;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-zasthn,
+        .framer-thrDB .framer-1ua9y1t,
+        .framer-thrDB .framer-hkv6p3,
+        .framer-thrDB .framer-1fo82dc {
+            flex: none;
+            width: 28px;
+            height: 28px;
+            position: relative
+        }
+
+        .framer-thrDB .framer-1iqd381 {
+            flex: none;
+            width: 31px;
+            height: 30px;
+            position: relative
+        }
+
+        .framer-thrDB .framer-7t05c6,
+        .framer-thrDB .framer-1tx6ybp,
+        .framer-thrDB .framer-1vcy8u4 {
+            --framer-paragraph-spacing: 0px;
+            white-space: pre-wrap;
+            word-break: break-word;
+            word-wrap: break-word;
+            flex: none;
+            width: 173px;
+            height: auto;
+            position: relative
+        }
+
+        .framer-thrDB .framer-hrshea,
+        .framer-thrDB .framer-rw7i0h,
+        .framer-thrDB .framer-h2254n,
+        .framer-thrDB .framer-1syods0 {
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 12px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-5pjeb6,
+        .framer-thrDB .framer-1n9eaxn {
+            --border-bottom-width: 1px;
+            --border-color: #4c06;
+            --border-left-width: 1px;
+            --border-right-width: 1px;
+            --border-style: solid;
+            --border-top-width: 1px;
             background-color: #4c03;
             border-radius: 4px;
-            display: flex;
+            flex-flow: row;
             flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
+            place-content: center;
+            align-items: center;
             gap: 10px;
+            width: min-content;
             height: min-content;
-            justify-content: center;
-            overflow: visible;
             padding: 4px;
+            display: flex;
             position: relative;
-            width: min-content
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-22ef1h,
-        .framer-qUAr5 .framer-1nbvk1t,
-        .framer-qUAr5 .framer-1i60p8t,
-        .framer-qUAr5 .framer-1oujeid,
-        .framer-qUAr5 .framer-rca2sh,
-        .framer-qUAr5 .framer-1t4tqbp,
-        .framer-qUAr5 .framer-1dwwczc {
+        .framer-thrDB .framer-22ef1h,
+        .framer-thrDB .framer-1nbvk1t,
+        .framer-thrDB .framer-1i60p8t,
+        .framer-thrDB .framer-1oujeid,
+        .framer-thrDB .framer-rca2sh,
+        .framer-thrDB .framer-1t4tqbp,
+        .framer-thrDB .framer-1dwwczc {
             flex: none;
+            width: 30px;
             height: 30px;
-            position: relative;
-            width: 30px
+            position: relative
         }
 
-        .framer-qUAr5 .framer-1ysj8rr {
+        .framer-thrDB .framer-1ysj8rr {
             --border-bottom-width: 1px;
-            --border-color: rgba(204, 0, 0, .4);
+            --border-color: #c006;
             --border-left-width: 1px;
             --border-right-width: 1px;
             --border-style: solid;
             --border-top-width: 1px;
-            align-content: center;
-            align-items: center;
             background-color: #c003;
             border-radius: 4px;
-            display: flex;
+            flex-flow: row;
             flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
+            place-content: center;
+            align-items: center;
             gap: 10px;
+            width: min-content;
             height: min-content;
-            justify-content: center;
-            overflow: visible;
             padding: 4px;
+            display: flex;
             position: relative;
-            width: min-content
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-1cp9ut9 {
+        .framer-thrDB .framer-1cp9ut9 {
             --border-bottom-width: 1px;
-            --border-color: rgba(33, 33, 33, .05);
+            --border-color: #2121210d;
             --border-left-width: 1px;
             --border-right-width: 1px;
             --border-style: solid;
             --border-top-width: 1px;
-            align-content: flex-start;
-            align-items: flex-start;
+            will-change: var(--framer-will-change-override, transform);
             background-color: #fff;
             border-radius: 10px;
-            display: flex;
+            flex-flow: column;
             flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 0px;
-            height: 100%;
-            justify-content: flex-start;
-            overflow: hidden;
-            padding: 0;
-            position: relative;
-            width: 280px;
-            will-change: var(--framer-will-change-override, transform)
-        }
-
-        .framer-qUAr5 .framer-mx7mrm {
-            align-content: flex-start;
+            place-content: flex-start;
             align-items: flex-start;
-            background-color: #f7f7f7;
-            display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            height: 44px;
-            justify-content: space-between;
-            overflow: visible;
+            gap: 0;
+            width: 280px;
+            height: 100%;
             padding: 0;
+            display: flex;
             position: relative;
-            width: 100%
+            overflow: hidden
         }
 
-        .framer-qUAr5 .framer-rc5h7c {
+        .framer-thrDB .framer-mx7mrm {
+            background-color: #f7f7f7;
+            flex-flow: row;
+            flex: none;
+            place-content: flex-start space-between;
+            align-items: flex-start;
+            width: 100%;
+            height: 44px;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-rc5h7c {
             --border-bottom-width: 0px;
-            --border-color: rgba(33, 33, 33, .05);
+            --border-color: #2121210d;
             --border-left-width: 0px;
             --border-right-width: 1px;
             --border-style: solid;
             --border-top-width: 0px;
-            align-content: center;
-            align-items: center;
             background-color: #fff;
             border-top-right-radius: 10px;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 0px;
-            height: 100%;
-            justify-content: center;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: 1px
-        }
-
-        .framer-qUAr5 .framer-1wusqzv {
-            --border-bottom-width: 1px;
-            --border-color: rgba(33, 33, 33, .05);
-            --border-left-width: 0px;
-            --border-right-width: 0px;
-            --border-style: solid;
-            --border-top-width: 0px;
-            align-content: center;
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center;
             align-items: center;
-            background-color: #fff0;
-            cursor: pointer;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 0px;
-            height: 100%;
-            justify-content: center;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: 1px
-        }
-
-        .framer-qUAr5 .framer-1j5237b {
-            align-content: center;
-            align-items: center;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 12px;
-            height: 1px;
-            justify-content: flex-start;
-            overflow: visible;
-            padding: 12px;
-            position: relative;
-            width: 100%
-        }
-
-        .framer-qUAr5 .framer-1tztdko,
-        .framer-qUAr5 .framer-d8yjss,
-        .framer-qUAr5 .framer-1iu7aa7,
-        .framer-qUAr5 .framer-1whuzat {
-            --border-bottom-width: 1px;
-            --border-color: rgba(33, 33, 33, .05);
-            --border-left-width: 1px;
-            --border-right-width: 1px;
-            --border-style: solid;
-            --border-top-width: 1px;
-            align-content: center;
-            align-items: center;
-            border-radius: 10px;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            height: 1px;
-            justify-content: space-between;
-            overflow: visible;
-            padding: 12px;
-            position: relative;
-            width: 100%
-        }
-
-        .framer-qUAr5 .framer-1mcz51u,
-        .framer-qUAr5 .framer-1avsy0j,
-        .framer-qUAr5 .framer-173b3ue,
-        .framer-qUAr5 .framer-17bugz9,
-        .framer-qUAr5 .framer-dfbuxl,
-        .framer-qUAr5 .framer-14h374z,
-        .framer-qUAr5 .framer-rt2hwy,
-        .framer-qUAr5 .framer-x1hcyh {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 8px;
-            height: min-content;
-            justify-content: flex-start;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: min-content
-        }
-
-        .framer-qUAr5 .framer-m19jdf,
-        .framer-qUAr5 .framer-mmtizj {
-            flex: none;
-            height: 11px;
-            position: relative;
-            width: 10px
-        }
-
-        .framer-qUAr5 .framer-kdz4ur,
-        .framer-qUAr5 .framer-gpsl9a,
-        .framer-qUAr5 .framer-2c4a4u {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 12px;
-            height: min-content;
-            justify-content: center;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: min-content
-        }
-
-        .framer-qUAr5 .framer-x8engt {
-            align-content: center;
-            align-items: center;
-            background: linear-gradient(90deg, #050505, #6b6b6b, #050505);
-            border-radius: 10px;
-            cursor: pointer;
-            display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 10px;
-            height: 35px;
-            justify-content: center;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: 100%
-        }
-
-        .framer-qUAr5 .framer-1h2bedn {
-            --border-bottom-width: 1px;
-            --border-color: rgba(33, 33, 33, .05);
-            --border-left-width: 1px;
-            --border-right-width: 1px;
-            --border-style: solid;
-            --border-top-width: 1px;
-            align-content: flex-start;
-            align-items: flex-start;
-            border-radius: 10px;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 20px;
-            height: 100%;
-            justify-content: flex-start;
-            overflow: hidden;
-            padding: 16px;
-            position: relative;
+            gap: 0;
             width: 1px;
-            will-change: var(--framer-will-change-override, transform)
-        }
-
-        .framer-qUAr5 .framer-x3tx32 {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 8px;
-            height: min-content;
-            justify-content: flex-start;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: 100%
-        }
-
-        .framer-qUAr5 .framer-1d56eg,
-        .framer-qUAr5 .framer-1prfa2t {
-            flex: none;
-            height: 10px;
-            position: relative;
-            width: 10px
-        }
-
-        .framer-qUAr5 .framer-k42iae {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 4px;
-            height: min-content;
-            justify-content: flex-start;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: 523px
-        }
-
-        .framer-qUAr5 .framer-1xazb1y {
-            --border-bottom-width: 1px;
-            --border-color: rgba(68, 204, 0, .4);
-            --border-left-width: 1px;
-            --border-right-width: 1px;
-            --border-style: solid;
-            --border-top-width: 1px;
-            align-content: center;
-            align-items: center;
-            background-color: #4c03;
-            border-radius: 4px;
-            display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 4px;
-            height: min-content;
-            justify-content: center;
-            overflow: visible;
-            padding: 4px;
-            position: relative;
-            width: min-content
-        }
-
-        .framer-qUAr5 .framer-2wym3a {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 4px;
-            height: min-content;
-            justify-content: flex-start;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: min-content
-        }
-
-        .framer-qUAr5 .framer-nv2534 {
-            align-content: flex-start;
-            align-items: flex-start;
-            background-color: #fff;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 10px;
-            height: 1px;
-            justify-content: flex-start;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: 100%
-        }
-
-        .framer-qUAr5 .framer-dpocpc {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 10px;
             height: 100%;
-            justify-content: center;
-            overflow: visible;
             padding: 0;
-            position: relative;
-            width: 1px
-        }
-
-        .framer-qUAr5 .framer-5ka7we {
-            align-content: flex-start;
-            align-items: flex-start;
             display: flex;
-            flex: 1 0 0px;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 12px;
-            height: 1px;
-            justify-content: flex-start;
-            overflow: visible;
-            padding: 0;
             position: relative;
-            width: 100%
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-1jp1poo {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            height: 100%;
-            justify-content: space-between;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: min-content
-        }
-
-        .framer-qUAr5 .framer-1p1bgi0 {
-            flex: 1 0 0px;
-            height: 100%;
-            position: relative;
-            width: 1px
-        }
-
-        .framer-qUAr5 .framer-1luz5s0 {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            height: min-content;
-            justify-content: space-between;
-            overflow: visible;
-            padding: 0 0 0 64px;
-            position: relative;
-            width: 100%
-        }
-
-        .framer-qUAr5 .framer-18kb22c {
+        .framer-thrDB .framer-1wusqzv {
             --border-bottom-width: 1px;
-            --border-color: rgba(33, 33, 33, .05);
-            --border-left-width: 1px;
-            --border-right-width: 1px;
-            --border-style: solid;
-            --border-top-width: 1px;
-            align-content: flex-start;
-            align-items: flex-start;
-            border-radius: 12px;
-            display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            height: 100%;
-            justify-content: space-between;
-            overflow: visible;
-            padding: 16px;
-            position: relative;
-            width: 280px
-        }
-
-        .framer-qUAr5 .framer-1ukzrku,
-        .framer-qUAr5 .framer-c7ugjq,
-        .framer-qUAr5 .framer-xnco84,
-        .framer-qUAr5 .framer-rlmynw,
-        .framer-qUAr5 .framer-18cyprg {
-            align-content: center;
-            align-items: center;
-            display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 12px;
-            height: min-content;
-            justify-content: flex-start;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: min-content
-        }
-
-        .framer-qUAr5 .framer-16mrcqk {
-            flex: none;
-            height: 26px;
-            position: relative;
-            width: 26px
-        }
-
-        .framer-qUAr5 .framer-1y6lauq {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 12px;
-            height: min-content;
-            justify-content: flex-start;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: 100%
-        }
-
-        .framer-qUAr5 .framer-1q8zdav,
-        .framer-qUAr5 .framer-1q42cu5,
-        .framer-qUAr5 .framer-qddvmq,
-        .framer-qUAr5 .framer-uxlrb3 {
-            --border-bottom-width: 1px;
-            --border-color: rgba(68, 204, 0, .4);
-            --border-left-width: 1px;
-            --border-right-width: 1px;
-            --border-style: solid;
-            --border-top-width: 1px;
-            align-content: center;
-            align-items: center;
-            background-color: #4c03;
-            border-radius: 4px;
-            display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 10px;
-            height: min-content;
-            justify-content: center;
-            overflow: visible;
-            padding: 1px 4px;
-            position: relative;
-            width: min-content
-        }
-
-        .framer-qUAr5 .framer-1m60ewy {
-            align-content: center;
-            align-items: center;
-            display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 4px;
-            height: min-content;
-            justify-content: flex-start;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: 100%
-        }
-
-        .framer-qUAr5 .framer-pe1n0x {
-            align-content: center;
-            align-items: center;
-            background: linear-gradient(90deg, #fc3, #fff2cc);
-            border-radius: 100px;
-            display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 10px;
-            height: min-content;
-            justify-content: center;
-            min-height: 15px;
-            overflow: visible;
-            padding: 1px 4px;
-            position: relative;
-            width: 150px
-        }
-
-        .framer-qUAr5 .framer-1c1xf8r {
-            align-content: center;
-            align-items: center;
-            background: linear-gradient(90deg, #6081ea, #d1dbf9);
-            border-radius: 100px;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 10px;
-            height: min-content;
-            justify-content: center;
-            min-height: 15px;
-            overflow: visible;
-            padding: 1px 4px;
-            position: relative;
-            width: 1px
-        }
-
-        .framer-qUAr5 .framer-byfgqp {
-            align-content: center;
-            align-items: center;
-            background: linear-gradient(90deg, #282828, #a8a8a8);
-            border-radius: 100px;
-            display: flex;
-            flex: 1 0 0px;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            gap: 10px;
-            height: min-content;
-            justify-content: center;
-            min-height: 15px;
-            overflow: visible;
-            padding: 1px 4px;
-            position: relative;
-            width: 1px
-        }
-
-        .framer-qUAr5 .framer-mm5zta {
-            align-content: flex-start;
-            align-items: flex-start;
-            display: flex;
-            flex: none;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 0px;
-            height: min-content;
-            justify-content: flex-end;
-            overflow: visible;
-            padding: 0;
-            position: relative;
-            width: 100%
-        }
-
-        .framer-qUAr5 .framer-z33jfw,
-        .framer-qUAr5 .framer-zsf3zr,
-        .framer-qUAr5 .framer-4il6cp {
-            --border-bottom-width: 1px;
-            --border-color: rgba(33, 33, 33, .05);
+            --border-color: #2121210d;
             --border-left-width: 0px;
             --border-right-width: 0px;
             --border-style: solid;
             --border-top-width: 0px;
-            align-content: center;
+            cursor: pointer;
+            background-color: #fff0;
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center;
             align-items: center;
+            gap: 0;
+            width: 1px;
+            height: 100%;
+            padding: 0;
             display: flex;
-            flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            height: min-content;
-            justify-content: space-between;
-            overflow: visible;
-            padding: 16px 0;
             position: relative;
-            width: 100%
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-1cf2gyg {
+        .framer-thrDB .framer-1j5237b {
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 12px;
+            width: 100%;
+            height: 1px;
+            padding: 12px;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-1tztdko,
+        .framer-thrDB .framer-d8yjss,
+        .framer-thrDB .framer-1iu7aa7,
+        .framer-thrDB .framer-1whuzat {
             --border-bottom-width: 1px;
-            --border-color: rgba(204, 0, 0, .4);
+            --border-color: #2121210d;
             --border-left-width: 1px;
             --border-right-width: 1px;
             --border-style: solid;
             --border-top-width: 1px;
-            align-content: center;
+            border-radius: 10px;
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center space-between;
             align-items: center;
+            width: 100%;
+            height: 1px;
+            padding: 12px;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-1mcz51u,
+        .framer-thrDB .framer-1avsy0j,
+        .framer-thrDB .framer-173b3ue,
+        .framer-thrDB .framer-17bugz9,
+        .framer-thrDB .framer-dfbuxl,
+        .framer-thrDB .framer-14h374z,
+        .framer-thrDB .framer-rt2hwy,
+        .framer-thrDB .framer-x1hcyh {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 8px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-m19jdf,
+        .framer-thrDB .framer-mmtizj {
+            flex: none;
+            width: 10px;
+            height: 11px;
+            position: relative
+        }
+
+        .framer-thrDB .framer-kdz4ur,
+        .framer-thrDB .framer-gpsl9a,
+        .framer-thrDB .framer-2c4a4u {
+            flex-flow: row;
+            flex: none;
+            place-content: flex-start center;
+            align-items: flex-start;
+            gap: 12px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-x8engt {
+            cursor: pointer;
+            background: linear-gradient(90deg, #050505 0%, #6b6b6b 50%, #050505 100%);
+            border-radius: 10px;
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            height: 35px;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-1h2bedn {
+            --border-bottom-width: 1px;
+            --border-color: #2121210d;
+            --border-left-width: 1px;
+            --border-right-width: 1px;
+            --border-style: solid;
+            --border-top-width: 1px;
+            will-change: var(--framer-will-change-override, transform);
+            border-radius: 10px;
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 20px;
+            width: 1px;
+            height: 100%;
+            padding: 16px;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }
+
+        .framer-thrDB .framer-x3tx32 {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 8px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-1d56eg,
+        .framer-thrDB .framer-1prfa2t {
+            flex: none;
+            width: 10px;
+            height: 10px;
+            position: relative
+        }
+
+        .framer-thrDB .framer-k42iae {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 4px;
+            width: 523px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-1xazb1y {
+            --border-bottom-width: 1px;
+            --border-color: #4c06;
+            --border-left-width: 1px;
+            --border-right-width: 1px;
+            --border-style: solid;
+            --border-top-width: 1px;
+            background-color: #4c03;
+            border-radius: 4px;
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 4px;
+            width: min-content;
+            height: min-content;
+            padding: 4px;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-2wym3a {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 4px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-nv2534 {
+            background-color: #fff;
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 10px;
+            width: 100%;
+            height: 1px;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-dpocpc {
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: flex-start center;
+            align-items: flex-start;
+            gap: 10px;
+            width: 1px;
+            height: 100%;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-5ka7we {
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 12px;
+            width: 100%;
+            height: 1px;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-1jp1poo {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start space-between;
+            align-items: flex-start;
+            width: min-content;
+            height: 100%;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-1p1bgi0 {
+            flex: 1 0 0;
+            width: 1px;
+            height: 100%;
+            position: relative
+        }
+
+        .framer-thrDB .framer-1luz5s0 {
+            flex-flow: row;
+            flex: none;
+            place-content: flex-start space-between;
+            align-items: flex-start;
+            width: 100%;
+            height: min-content;
+            padding: 0 0 0 64px;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-18kb22c {
+            --border-bottom-width: 1px;
+            --border-color: #2121210d;
+            --border-left-width: 1px;
+            --border-right-width: 1px;
+            --border-style: solid;
+            --border-top-width: 1px;
+            border-radius: 12px;
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start space-between;
+            align-items: flex-start;
+            width: 280px;
+            height: 100%;
+            padding: 16px;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-1ukzrku,
+        .framer-thrDB .framer-c7ugjq,
+        .framer-thrDB .framer-xnco84,
+        .framer-thrDB .framer-rlmynw,
+        .framer-thrDB .framer-18cyprg {
+            flex-flow: row;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 12px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-16mrcqk {
+            flex: none;
+            width: 26px;
+            height: 26px;
+            position: relative
+        }
+
+        .framer-thrDB .framer-1y6lauq {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 12px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-1q8zdav,
+        .framer-thrDB .framer-1q42cu5,
+        .framer-thrDB .framer-qddvmq,
+        .framer-thrDB .framer-uxlrb3 {
+            --border-bottom-width: 1px;
+            --border-color: #4c06;
+            --border-left-width: 1px;
+            --border-right-width: 1px;
+            --border-style: solid;
+            --border-top-width: 1px;
+            background-color: #4c03;
+            border-radius: 4px;
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: min-content;
+            height: min-content;
+            padding: 1px 4px;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-1m60ewy {
+            flex-flow: row;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 4px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-pe1n0x {
+            background: linear-gradient(90deg, #fc3 0%, #fff2cc 100%);
+            border-radius: 100px;
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 150px;
+            height: min-content;
+            min-height: 15px;
+            padding: 1px 4px;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-1c1xf8r {
+            background: linear-gradient(90deg, #6081ea 0%, #d1dbf9 100%);
+            border-radius: 100px;
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 1px;
+            height: min-content;
+            min-height: 15px;
+            padding: 1px 4px;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-byfgqp {
+            background: linear-gradient(90deg, #282828 0%, #a8a8a8 100%);
+            border-radius: 100px;
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 1px;
+            height: min-content;
+            min-height: 15px;
+            padding: 1px 4px;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-mm5zta {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start flex-end;
+            align-items: flex-start;
+            gap: 0;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-z33jfw,
+        .framer-thrDB .framer-zsf3zr,
+        .framer-thrDB .framer-4il6cp {
+            --border-bottom-width: 1px;
+            --border-color: #2121210d;
+            --border-left-width: 0px;
+            --border-right-width: 0px;
+            --border-style: solid;
+            --border-top-width: 0px;
+            flex-flow: row;
+            flex: none;
+            place-content: center space-between;
+            align-items: center;
+            width: 100%;
+            height: min-content;
+            padding: 16px 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }
+
+        .framer-thrDB .framer-1cf2gyg {
+            --border-bottom-width: 1px;
+            --border-color: #c006;
+            --border-left-width: 1px;
+            --border-right-width: 1px;
+            --border-style: solid;
+            --border-top-width: 1px;
             background-color: #c003;
             border-radius: 4px;
-            display: flex;
+            flex-flow: row;
             flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
+            place-content: center;
+            align-items: center;
             gap: 10px;
+            width: min-content;
             height: min-content;
-            justify-content: center;
-            overflow: visible;
             padding: 1px 4px;
+            display: flex;
             position: relative;
-            width: min-content
+            overflow: visible
         }
 
-        .framer-qUAr5 .framer-1epj3wb {
-            align-content: center;
-            align-items: center;
+        .framer-thrDB .framer-1epj3wb {
             border-radius: 10px;
-            display: flex;
+            flex-flow: row;
             flex: none;
-            flex-direction: row;
-            flex-wrap: nowrap;
+            place-content: center space-between;
+            align-items: center;
+            width: 100%;
             height: min-content;
-            justify-content: space-between;
-            overflow: visible;
             padding: 12px 0 0;
+            display: flex;
             position: relative;
-            width: 100%
+            overflow: visible
         }
 
         .framer-RO3rA .framer-styles-preset-119hx24:not(.rich-text-wrapper),
         .framer-RO3rA .framer-styles-preset-119hx24.rich-text-wrapper a {
-            --framer-link-text-color: #0099ff
+            --framer-link-text-color: #09f
         }
 
-        .framer-qUAr5[data-border=true]:after,
-        .framer-qUAr5 [data-border=true]:after {
+        .framer-thrDB[data-border=true]:after,
+        .framer-thrDB [data-border=true]:after {
             content: "";
-            border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0);
+            border-width: var(--border-top-width, 0)var(--border-right-width, 0)var(--border-bottom-width, 0)var(--border-left-width, 0);
             border-color: var(--border-color, none);
             border-style: var(--border-style, none);
+            box-sizing: border-box;
+            border-radius: inherit;
+            pointer-events: none;
             width: 100%;
             height: 100%;
             position: absolute;
-            box-sizing: border-box;
-            left: 0;
             top: 0;
-            border-radius: inherit;
-            pointer-events: none
+            left: 0
         }
 
-        @media (min-width: 810px) and (max-width: 1199.98px) {
-            .framer-qUAr5.framer-72rtr7 {
+        @media (width>=810px) and (width<=1199.98px) {
+            .framer-thrDB.framer-72rtr7 {
                 width: 810px
             }
-            .framer-qUAr5 .framer-fx5i05,
-            .framer-qUAr5 .framer-q13uq5 {
+            .framer-thrDB .framer-fx5i05,
+            .framer-thrDB .framer-q13uq5 {
                 flex-direction: column;
                 height: min-content
             }
-            .framer-qUAr5 .framer-21anfs,
-            .framer-qUAr5 .framer-1h2bedn {
+            .framer-thrDB .framer-21anfs,
+            .framer-thrDB .framer-1h2bedn {
                 flex: none;
-                height: min-content;
-                width: 100%
-            }
-            .framer-qUAr5 .framer-nsude0 {
-                flex: none;
-                flex-direction: column;
+                width: 100%;
                 height: min-content
             }
-            .framer-qUAr5 .framer-10my308,
-            .framer-qUAr5 .framer-tow32w {
+            .framer-thrDB .framer-nsude0 {
+                flex-direction: column;
                 flex: none;
-                height: 164px;
-                width: 100%
+                height: min-content
             }
-            .framer-qUAr5 .framer-1b3iwem {
+            .framer-thrDB .framer-10my308,
+            .framer-thrDB .framer-tow32w {
+                flex: none;
+                width: 100%;
+                height: 164px
+            }
+            .framer-thrDB .framer-1b3iwem {
                 align-content: unset;
                 align-items: unset;
-                display: grid;
-                grid-auto-rows: minmax(0, 1fr);
-                grid-template-columns: repeat(2, minmax(50px, 1fr));
                 grid-template-rows: repeat(2, minmax(0, 1fr));
-                justify-content: center
+                grid-template-columns: repeat(2, minmax(50px, 1fr));
+                grid-auto-rows: minmax(0, 1fr);
+                justify-content: center;
+                display: grid
             }
-            .framer-qUAr5 .framer-1vdvve4,
-            .framer-qUAr5 .framer-1xewmhm,
-            .framer-qUAr5 .framer-1b2tcun {
-                align-self: start;
+            .framer-thrDB .framer-1vdvve4,
+            .framer-thrDB .framer-1xewmhm,
+            .framer-thrDB .framer-1b2tcun {
                 flex: none;
-                justify-self: start;
+                place-self: start;
                 width: 100%
             }
-            .framer-qUAr5 .framer-1cp9ut9 {
-                height: 382px;
-                width: 100%
+            .framer-thrDB .framer-1cp9ut9 {
+                width: 100%;
+                height: 382px
             }
-            .framer-qUAr5 .framer-nv2534,
-            .framer-qUAr5 .framer-5ka7we {
+            .framer-thrDB .framer-nv2534,
+            .framer-thrDB .framer-5ka7we {
                 flex: none;
                 height: min-content
             }
-            .framer-qUAr5 .framer-dpocpc {
+            .framer-thrDB .framer-dpocpc {
                 height: min-content
             }
-            .framer-qUAr5 .framer-1jp1poo {
+            .framer-thrDB .framer-1jp1poo {
+                justify-content: center;
                 gap: 24px;
-                height: min-content;
-                justify-content: center
+                height: min-content
             }
-            .framer-qUAr5 .framer-1p1bgi0 {
+            .framer-thrDB .framer-1p1bgi0 {
                 align-self: stretch;
                 height: auto
             }
-            .framer-qUAr5 .framer-18kb22c {
-                gap: 16px;
-                height: min-content;
+            .framer-thrDB .framer-18kb22c {
                 justify-content: center;
-                width: 100%
+                gap: 16px;
+                width: 100%;
+                height: min-content
             }
         }
 
-        @media (max-width: 809.98px) {
-            .framer-qUAr5.framer-72rtr7 {
+        @media (width<=809.98px) {
+            .framer-thrDB.framer-72rtr7 {
                 width: 390px
             }
-            .framer-qUAr5 .framer-5lulpz {
-                padding: 0 0 0 12px;
-                width: min-content
+            .framer-thrDB .framer-5lulpz {
+                width: min-content;
+                padding: 0 0 0 12px
             }
-            .framer-qUAr5 .framer-170l14k {
+            .framer-thrDB .framer-170l14k {
                 padding: 0 4px 12px
             }
-            .framer-qUAr5 .framer-fx5i05,
-            .framer-qUAr5 .framer-q13uq5 {
+            .framer-thrDB .framer-fx5i05,
+            .framer-thrDB .framer-q13uq5 {
                 flex-direction: column;
                 height: min-content
             }
-            .framer-qUAr5 .framer-21anfs,
-            .framer-qUAr5 .framer-1h2bedn {
+            .framer-thrDB .framer-21anfs,
+            .framer-thrDB .framer-1h2bedn {
                 flex: none;
-                height: min-content;
-                width: 100%
-            }
-            .framer-qUAr5 .framer-nsude0 {
-                flex: none;
-                flex-direction: column;
+                width: 100%;
                 height: min-content
             }
-            .framer-qUAr5 .framer-10my308,
-            .framer-qUAr5 .framer-tow32w {
+            .framer-thrDB .framer-nsude0 {
+                flex-direction: column;
                 flex: none;
-                height: 164px;
-                width: 100%
+                height: min-content
             }
-            .framer-qUAr5 .framer-ojbzol {
+            .framer-thrDB .framer-10my308,
+            .framer-thrDB .framer-tow32w {
+                flex: none;
+                width: 100%;
+                height: 164px
+            }
+            .framer-thrDB .framer-ojbzol {
                 order: 2
             }
-            .framer-qUAr5 .framer-13icft6 {
+            .framer-thrDB .framer-13icft6 {
                 order: 1
             }
-            .framer-qUAr5 .framer-1b3iwem {
+            .framer-thrDB .framer-1b3iwem {
                 align-content: unset;
                 align-items: unset;
-                display: grid;
-                grid-auto-rows: minmax(0, 1fr);
-                grid-template-columns: repeat(1, minmax(50px, 1fr));
                 grid-template-rows: repeat(2, minmax(0, 1fr));
-                justify-content: center
+                grid-template-columns: repeat(1, minmax(50px, 1fr));
+                grid-auto-rows: minmax(0, 1fr);
+                justify-content: center;
+                display: grid
             }
-            .framer-qUAr5 .framer-1vdvve4,
-            .framer-qUAr5 .framer-1xewmhm,
-            .framer-qUAr5 .framer-1b2tcun {
-                align-self: start;
+            .framer-thrDB .framer-1vdvve4,
+            .framer-thrDB .framer-1xewmhm,
+            .framer-thrDB .framer-1b2tcun {
                 flex: none;
-                justify-self: start;
+                place-self: start;
                 width: 100%
             }
-            .framer-qUAr5 .framer-1cp9ut9 {
-                height: 382px;
-                width: 100%
+            .framer-thrDB .framer-1cp9ut9 {
+                width: 100%;
+                height: 382px
             }
-            .framer-qUAr5 .framer-nv2534,
-            .framer-qUAr5 .framer-5ka7we {
+            .framer-thrDB .framer-nv2534,
+            .framer-thrDB .framer-5ka7we {
                 flex: none;
                 height: min-content
             }
-            .framer-qUAr5 .framer-dpocpc {
+            .framer-thrDB .framer-dpocpc {
                 height: min-content
             }
-            .framer-qUAr5 .framer-1jp1poo {
+            .framer-thrDB .framer-1jp1poo {
+                justify-content: center;
                 gap: 16px;
-                height: min-content;
-                justify-content: center
+                height: min-content
             }
-            .framer-qUAr5 .framer-1p1bgi0 {
+            .framer-thrDB .framer-1p1bgi0 {
                 align-self: stretch;
                 height: auto
             }
-            .framer-qUAr5 .framer-18kb22c {
-                gap: 0px;
-                height: min-content;
+            .framer-thrDB .framer-18kb22c {
                 justify-content: center;
-                width: 100%
+                gap: 0;
+                width: 100%;
+                height: min-content
             }
         }
 
         .framer-form-input {
             padding: var(--framer-input-padding);
-            background: transparent;
             font-family: var(--framer-input-font-family);
             font-weight: var(--framer-input-font-weight);
             font-size: var(--framer-input-font-size);
             font-style: var(--framer-input-font-style);
             color: var(--framer-input-font-color);
             font-feature-settings: var(--framer-input-font-open-type-features);
-            border: none;
             text-overflow: ellipsis;
             white-space: nowrap;
-            overflow: hidden;
             width: 100%;
             height: var(--framer-input-wrapper-height, 100%);
             letter-spacing: var(--framer-input-font-letter-spacing);
             text-align: var(--framer-input-font-text-alignment);
-            line-height: var(--framer-input-font-line-height)
+            line-height: var(--framer-input-font-line-height);
+            background: 0 0;
+            border: none;
+            overflow: hidden
         }
 
         .framer-form-input:focus-visible {
@@ -3336,11 +3267,6 @@
             content: "";
             pointer-events: none;
             box-sizing: border-box;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
             border-top-left-radius: var(--framer-input-border-radius-top-left);
             border-top-right-radius: var(--framer-input-border-radius-top-right);
             border-bottom-right-radius: var(--framer-input-border-radius-bottom-right);
@@ -3351,12 +3277,13 @@
             border-bottom-width: var(--framer-input-border-bottom-width);
             border-left-width: var(--framer-input-border-left-width);
             border-style: var(--framer-input-border-style);
+            width: 100%;
+            height: 100%;
             transition: var(--framer-input-focused-transition);
-            transition-property: border-color, border-width, border-style, border-top-left-radius, border-top-right-radius, border-bottom-right-radius, border-bottom-left-radius
-        }
-
-        .framer-form-input-wrapper {
-            overflow: hidden
+            transition-property: border-color, border-width, border-style, border-top-left-radius, border-top-right-radius, border-bottom-right-radius, border-bottom-left-radius;
+            position: absolute;
+            top: 0;
+            left: 0
         }
 
         .framer-form-input-wrapper {
@@ -3367,7 +3294,8 @@
             border-bottom-left-radius: var(--framer-input-border-radius-bottom-left);
             background: var(--framer-input-background);
             transition: var(--framer-input-focused-transition);
-            transition-property: background, box-shadow
+            transition-property: background, box-shadow;
+            overflow: hidden
         }
 
         .framer-form-text-input .framer-form-input::placeholder {
@@ -3385,21 +3313,21 @@
         }
 
         .framer-form-text-input textarea {
-            display: flex;
             resize: var(--framer-textarea-resize);
-            overflow-y: auto;
             min-height: inherit;
             max-height: inherit;
-            white-space: break-spaces
+            white-space: break-spaces;
+            display: flex;
+            overflow-y: auto
         }
 
         .framer-form-text-input textarea::-webkit-resizer {
-            background: no-repeat url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><path d="m1.5 8 7-7M9 5.5l-3 3" stroke="%23999" stroke-width="1.5" stroke-linecap="round"></path></svg>')
+            background: url("data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\"><path d=\"m1.5 8 7-7M9 5.5l-3 3\" stroke=\"%23999\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path></svg>") no-repeat
         }
 
         .framer-form-text-input textarea::-webkit-scrollbar {
             cursor: pointer;
-            background: transparent
+            background: 0 0
         }
 
         .framer-form-text-input textarea::-webkit-scrollbar-thumb:window-inactive {
@@ -3407,8 +3335,7 @@
         }
 
         .framer-form-text-input textarea::-webkit-scrollbar-corner {
-            background: none;
-            background-color: transparent;
+            background: 0 0;
             outline: none
         }
 
@@ -3425,47 +3352,47 @@
         .framer-form-text-input .framer-form-input[type=date]:before,
         .framer-form-text-input .framer-form-input[type=time]:before {
             content: "";
-            display: block;
-            position: absolute;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            width: 16px;
             box-sizing: content-box;
+            width: 16px;
             padding: var(--framer-input-padding);
-            border: none;
             pointer-events: none;
             background-repeat: no-repeat;
             background-size: 16px;
-            mask-repeat: no-repeat;
-            mask-size: 16px;
             background-color: var(--framer-input-icon-color);
+            background-position: 10px;
+            border: none;
             padding-left: 10px;
-            mask-position: 10px center;
-            background-position: 10px center
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            mask-position: 10px;
+            mask-size: 16px;
+            mask-repeat: no-repeat
         }
 
         .framer-form-text-input .framer-form-input[type=date]:before {
-            mask-image: var(--framer-input-icon-mask-image, url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="rgb(153, 153, 153)" d="M3 5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2H3Z" opacity=".3"/><path fill="transparent" stroke="rgb(153, 153, 153)" stroke-width="1.5" d="M3.25 5.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2ZM3 6.75h9.5"/></svg>'));
+            mask-image: var(--framer-input-icon-mask-image, url("data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\"><path fill=\"rgb(153, 153, 153)\" d=\"M3 5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2H3Z\" opacity=\".3\"/><path fill=\"transparent\" stroke=\"rgb(153, 153, 153)\" stroke-width=\"1.5\" d=\"M3.25 5.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2ZM3 6.75h9.5\"/></svg>"));
             background-image: var(--framer-input-icon-image)
         }
 
         .framer-form-text-input .framer-form-input[type=time]:before {
-            mask-image: var(--framer-input-icon-mask-image, url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="transparent" stroke="rgb(153, 153, 153)" stroke-width="1.5" d="M2.5 8a5.5 5.5 0 1 1 11 0 5.5 5.5 0 1 1-11 0Z"/><path fill="transparent" stroke="rgb(153, 153, 153)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7.75 8.25v-3m0 3h2"/></svg>'));
+            mask-image: var(--framer-input-icon-mask-image, url("data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\"><path fill=\"transparent\" stroke=\"rgb(153, 153, 153)\" stroke-width=\"1.5\" d=\"M2.5 8a5.5 5.5 0 1 1 11 0 5.5 5.5 0 1 1-11 0Z\"/><path fill=\"transparent\" stroke=\"rgb(153, 153, 153)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M7.75 8.25v-3m0 3h2\"/></svg>"));
             background-image: var(--framer-input-icon-image)
         }
 
         .framer-form-text-input .framer-form-input::-webkit-calendar-picker-indicator {
             opacity: 0;
-            position: absolute;
-            right: 0;
-            top: 0;
-            bottom: 0;
             padding: var(--framer-input-padding);
+            width: 16px;
+            height: 100%;
             padding-top: 0;
             padding-bottom: 0;
-            width: 16px;
-            height: 100%
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0
         }
 
         .framer-form-text-input:focus-within,
@@ -3478,7 +3405,7 @@
         .framer-form-text-input.framer-form-input-forced-focus:after {
             border-color: var(--framer-input-focused-border-color, var(--framer-input-border-color));
             border-style: var(--framer-input-focused-border-style, var(--framer-input-border-style));
-            border-width: var(--framer-input-focused-border-width, var(--framer-input-border-top-width) var(--framer-input-border-right-width) var(--framer-input-border-bottom-width) var(--framer-input-border-left-width))
+            border-width: var(--framer-input-focused-border-width, var(--framer-input-border-top-width)var(--framer-input-border-right-width)var(--framer-input-border-bottom-width)var(--framer-input-border-left-width))
         }
 
         .ssr-variant {
@@ -3496,30 +3423,14 @@
 
     <!-- End of bodyStart -->
     <div id="main" data-framer-hydrate-v2="{&quot;routeId&quot;:&quot;augiA20Il&quot;,&quot;localeId&quot;:&quot;default&quot;,&quot;breakpoints&quot;:[{&quot;hash&quot;:&quot;72rtr7&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 1200px)&quot;},{&quot;hash&quot;:&quot;1qgg6nl&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 810px) and (max-width: 1199.98px)&quot;},{&quot;hash&quot;:&quot;1sdmzhl&quot;,&quot;mediaQuery&quot;:&quot;(max-width: 809.98px)&quot;}]}"
-        data-framer-ssr-released-at="2025-09-01T08:02:34.661Z" data-framer-page-optimized-at="2025-09-02T20:53:41.632Z" data-framer-generated-page>
+        data-framer-ssr-released-at="2025-09-11T14:01:13.409Z" data-framer-page-optimized-at="2025-09-11T15:14:28.973Z" data-framer-generated-page>
         <!--$-->
         <style data-framer-html-style>
             html body {
                 background: rgb(255, 255, 255);
             }
         </style>
-        <div data-framer-root class="framer-qUAr5 framer-RO3rA framer-72rtr7" style="min-height:100vh;width:auto">
-            <div class="framer-w06fjv">
-                <div class="framer-1exykcf-container" data-code-component-plugin-id="84d4c1">
-                    <!--$-->
-                    <div style="max-width:100%;width:480px;position:relative;background:rgb(255, 255, 255);border-radius:20px;box-shadow:0 2px 16px 0 rgba(0,0,0,0.10);padding:20px;display:flex;flex-direction:column;align-items:center;gap:20px">
-                        <div style="display:flex;align-items:center;gap:12px;width:100%">
-                            <div style="width:44px;height:44px;border-radius:50%;background:rgb(255, 243, 240);display:flex;align-items:center;justify-content:center;flex-shrink:0"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 7v5" stroke="rgb(255, 74, 62)" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16" r="1" fill="rgb(255, 74, 62)"/><path d="M10.29 3.86l-8.1 14A2 2 0 004 21h16a2 2 0 001.81-3.14l-8.1-14a2 2 0 00-3.42 0z" stroke="rgb(255, 74, 62)" stroke-width="2" fill="none"/></svg></div>
-                            <span
-                                style="color:rgb(255, 74, 62);font-family:&quot;Space Grotesk&quot;, &quot;Space Grotesk Placeholder&quot;, sans-serif;font-size:22px;font-style:normal;font-weight:600;letter-spacing:-0.01em;line-height:1.2em">Withdrawal Error</span>
-                        </div>
-                        <div style="color:rgb(34, 34, 34);font-family:&quot;Space Grotesk&quot;, &quot;Space Grotesk Placeholder&quot;, sans-serif;font-size:17px;font-style:normal;font-weight:400;letter-spacing:-0.01em;line-height:1.3em;text-align:left;width:100%;margin-top:8px">Your transfer to your bank account is temporarily on hold.</div>
-                        <div style="color:rgb(34, 34, 34);font-family:&quot;Space Grotesk&quot;, &quot;Space Grotesk Placeholder&quot;, sans-serif;font-size:15px;font-style:normal;font-weight:400;letter-spacing:-0.01em;line-height:1.3em;text-align:left;width:100%;margin-top:8px">Your transfer could not be completed because the receiving bank was unable to authorize the crypto assets.</div>
-                        <div style="color:rgb(34, 34, 34);font-family:&quot;Space Grotesk&quot;, &quot;Space Grotesk Placeholder&quot;, sans-serif;font-size:15px;font-style:normal;font-weight:400;letter-spacing:-0.01em;line-height:1.3em;text-align:left;width:100%;margin-top:8px">An encrypted blockchain authorization key has been issued for this transaction. The key must first be decrypted using the SSR decryption tool before authorization can proceed:</div><button style="margin-top:24px;width:100%;background:rgb(34, 34, 34);color:rgb(255, 255, 255);border:none;border-radius:12px;padding:18px 0;font-size:17px;font-weight:600;letter-spacing:-0.01em;line-height:1.2em;cursor:pointer;font-family:&quot;Space Grotesk&quot;, &quot;Space Grotesk Placeholder&quot;, sans-serif;font-style:normal"
-                            aria-label="Purchase SSR X300">Purchase SSR X300</button></div>
-                    <!--/$-->
-                </div>
-            </div>
+        <div data-framer-root class="framer-thrDB framer-RO3rA framer-72rtr7" style="min-height:100vh;width:auto">
             <div class="framer-t04yvy" data-framer-name="Frame 3">
                 <div class="framer-13n1710" data-framer-name="Frame 29">
                     <div class="framer-5lulpz" data-framer-name="Frame 6">
@@ -4356,42 +4267,43 @@
     </script>
     <script>
         ! function() {
-            function c(t, r) {
-                let e = r.indexOf("#"),
-                    n = e === -1 ? r : r.substring(0, e),
-                    o = e === -1 ? "" : r.substring(e),
-                    a = n.indexOf("?");
-                if (a === -1) return n + t + o;
-                let d = new URLSearchParams(t),
-                    h = n.substring(a + 1),
-                    s = new URLSearchParams(h);
-                for (let [i, m] of d) s.has(i) || s.append(i, m);
-                return n.substring(0, a + 1) + s.toString() + o
+            var w = "framer_variant";
+
+            function u(a, r) {
+                let n = r.indexOf("#"),
+                    t = n === -1 ? r : r.substring(0, n),
+                    i = n === -1 ? "" : r.substring(n),
+                    e = t.indexOf("?"),
+                    h = e === -1 ? t : t.substring(0, e),
+                    d = e === -1 ? "" : t.substring(e),
+                    s = new URLSearchParams(d),
+                    g = new URLSearchParams(a);
+                for (let [o, l] of g) s.has(o) || o !== w && s.append(o, l);
+                let c = s.toString();
+                return c === "" ? t + i : h + "?" + c + i
             }
-            var l = 'div#main a[href^="#"],div#main a[href^="/"],div#main a[href^="."]',
-                u = "div#main a[data-framer-preserve-params]",
-                f, g = (f = document.currentScript) == null ? void 0 : f.hasAttribute("data-preserve-internal-params");
+            var p = 'div#main a[href^="#"],div#main a[href^="/"],div#main a[href^="."]',
+                f = "div#main a[data-framer-preserve-params]",
+                m, S = (m = document.currentScript) == null ? void 0 : m.hasAttribute("data-preserve-internal-params");
             if (window.location.search && !/bot|-google|google-|yandex|ia_archiver|crawl|spider/iu.test(navigator.userAgent)) {
-                let t = document.querySelectorAll(g ? `${l},${u}` : u);
-                for (let r of t) {
-                    let e = c(window.location.search, r.href);
-                    r.setAttribute("href", e)
+                let a = document.querySelectorAll(S ? `${p},${f}` : f);
+                for (let r of a) {
+                    let n = u(window.location.search, r.href);
+                    r.setAttribute("href", n)
                 }
             }
         }()
     </script>
-
+    
     <script data-framer-appear-animation="no-preference"></script>
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-DGWUD2YP.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-HZL4YIMB.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-A3IIQ6X3.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/QjRiPRDQndS3lwsU43qly1I-SPJIrc-4ENXMsBNXPfQ.RKEFTMYI.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-MKQ25VRW.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-OEQ4ZHPQ.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-QQNJAN2Y.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/chunk-42U43NKG.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/script_main.F2DLQTE7.mjs">
-    <script type="module" async data-framer-bundle="main" fetchpriority="low" src="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/script_main.F2DLQTE7.mjs"></script>
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/react.CwHTYZHY.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/rolldown-runtime.DXOHPd_4.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/framer.CCLOM0Sl.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/motion.DAkmOHJP.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/iz7w-g2wJG9kAArZQBf1EmvBSadIUHpEANUhrS8SJjo.DaU6KXL1.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/shared-lib.Cf9L3i-g.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/script_main.zYHmLLN_.mjs">
+    <script type="module" async data-framer-bundle="main" fetchpriority="low" src="https://framerusercontent.com/sites/5jsl0r6eQgMMLhmLRbJZMA/script_main.zYHmLLN_.mjs"></script>
     <div id="svg-templates" style="position: absolute; overflow: hidden; bottom: 0; left: 0; width: 0; height: 0; z-index: 0; contain: strict" aria-hidden="true">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" id="svg-403962240_979">
 <path d="M11.6769 8.67348C11.8274 8.43697 12.1726 8.43697 12.3231 8.67348L12.7586 9.35767C13.2401 10.1143 13.8818 10.756 14.6384 11.2375L15.3226 11.6729C15.5591 11.8235 15.5591 12.1687 15.3226 12.3192L14.6384 12.7547C13.8818 13.2362 13.2401 13.8779 12.7586 14.6345L12.3231 15.3187C12.1726 15.5552 11.8274 15.5552 11.6769 15.3187L11.2414 14.6345C10.7599 13.8779 10.1182 13.2362 9.36157 12.7547L8.67738 12.3192C8.44087 12.1687 8.44087 11.8235 8.67738 11.6729L9.36157 11.2375C10.1182 10.756 10.7599 10.1143 11.2414 9.35767L11.6769 8.67348Z" stroke="#212121" stroke-width="1.25" stroke-linejoin="round"/>
